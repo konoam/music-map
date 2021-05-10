@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "name": "Arlindo Cruz",
+    "Genre": "Eggs with tomato sauce",
+    "State": "Rio",
+    "img": "https://picsum.photos/200"
+  },
+  {
+    "id": 2,
+    "name": "Beth Carvhlho",
+    "desc": "Rio",
+    "img": "https://picsum.photos/200",
+    "userId": 1
+  },
+  {
+    "id": 3,
+    "name": "Zeca Pagodinho",
+    "desc": "Italian Desert",
+    "img": "https://picsum.photos/200",
+    "userId": 1
+  },
+  {
+    "id": 4,
+    "name": "Ana Carolina",
+    "desc": "Mina ger",
+    "img": "https://picsum.photos/200",
+    "userId": 2
+  },
+  {
+    "id": 5,
+    "name": "Spicy Shnitzel",
+    "desc": "Children dish with tabasco",
+    "img": "https://picsum.photos/200",
+    "userId": 2
+  }
+]
