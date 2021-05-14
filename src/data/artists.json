@@ -3,36 +3,56 @@
     "id": 1,
     "userId": 1,
     "name": "Arlindo Cruz",
-    "Genre": "Eggs with tomato sauce",
-    "State": "Rio",
+    "Birth_name": " Arlindo Domingos da Cruz Filho",
+    "Genre": [1, 8],
+    "Origin": "Rio de Janeiro",
     "img": "https://picsum.photos/200"
   },
   {
     "id": 2,
     "name": "Beth Carvhlho",
-    "desc": "Rio",
+    "Origin": "Rio de Janeiro",
+    "Birth_name": "Elizabeth Santos Leal de Carvalho",
+    "Genre": [1, 8],
     "img": "https://picsum.photos/200",
-    "userId": 1
+    "Active_Years": "1960 - 2019"
   },
   {
     "id": 3,
     "name": "Zeca Pagodinho",
-    "desc": "Italian Desert",
+    "Genres": [1, 3, 10],
+    "Origin": "Rio de Janeiro",
+    "Birth_name": "Jessé Gomes da Silva Filho",
     "img": "https://picsum.photos/200",
-    "userId": 1
+    "wikiURL": "https://en.wikipedia.org/wiki/Zeca_Pagodinho",
+    "Active_Years": "1978 - present"
   },
   {
     "id": 4,
     "name": "Ana Carolina",
-    "desc": "Mina ger",
-    "img": "https://picsum.photos/200",
-    "userId": 2
+    "Origin": "Rio de Janeiro",
+    "img": "https://picsum.photos/200"
   },
   {
     "id": 5,
-    "name": "Spicy Shnitzel",
-    "desc": "Children dish with tabasco",
+    "name": "Cartola",
+    "Instruments": [1, 8],
+    "Birth_name": "Angenor de Oliveira",
     "img": "https://picsum.photos/200",
-    "userId": 2
+    "Active_Years": "1927–1980",
+    "Origin": "Rio de Janeiro"
+  },
+
+  {
+    "id": 6,
+    "name": "Jorge Aragao",
+    "Birth_name": "Jorge Aragão da Cruz",
+    "Origin": "Rio de Janeiro",
+    "img": "https://picsum.photos/200"
+  },
+  {
+    "id": 7,
+    "name": "Seu Jorge",
+    "img": "https://picsum.photos/200"
   }
 ]

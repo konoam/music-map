@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Samba" },
+  { "id": 2, "name": "Choro" },
+  { "id": 3, "name": "MPB" },
+  { "id": 4, "name": "Bossa nova" },
+  { "id": 5, "name": "Sertanejo" },
+  { "id": 6, "name": "Maracatu" },
+  { "id": 7, "name": "Forro" },
+  { "id": 8, "name": "Pagode" },
+  { "id": 9, "name": "Axe" },
+  { "id": 10, "name": "Partido alto" }
+]
