@@ -1,98 +1,102 @@
-import React from "react";
-import { Button, Col, Form, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import fire from "./fire";
+import Login from "./components/login";
+// import Admin from "./components/admin";
+import "../styles/Login.css";
 
-class Login extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      email: "",
-      pwd: "",
-    };
-  }
-  updatePass = (event) => {
-    this.setState({
-      pwd: event.target.value,
+const LoginPage = () => {
+  const [user, setUser] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [passwordError, setPasswordError] = useState("");
+  const [hasAccount, setHasAccount] = useState("false");
+
+  const clearInputs = () => {
+    setEmail("");
+    setUser("");
+  };
+  const clearErrors = () => {
+    setEmailError("");
+    setPasswordError("");
+  };
+
+  const handleLogin = () => {
+    clearErrors();
+    fire
+      .auth()
+      .signInWithEmailAndPassword(email, password)
+      .catch((err) => {
+        switch (err.code) {
+          case "auth/invalid-email":
+          case "auth/user-disabled":
+          case "auth/user-not-found":
+            setEmailError(err.message);
+            break;
+          case "auth/wrong-password":
+            setPasswordError(err.message);
+            break;
+        }
+      });
+  };
+
+  const handleSignup = () => {
+    clearErrors();
+    fire
+      .auth()
+      .createUserWithEmailAndPassword(email, password)
+      .catch((err) => {
+        switch (err.code) {
+          case "auth/email-already-in-use":
+          case "auth/invalid-email":
+            setEmailError(err.message);
+            break;
+          case "auth/weak-password":
+            setPasswordError(err.message);
+            break;
+        }
+      });
+  };
+
+  const handleLogout = () => {
+    clearInputs();
+    fire.auth.sighOut();
+  };
+
+  const authListener = () => {
+    fire.auth().onAuthStateChanged((user) => {
+      if (user) {
+        clearInputs();
+        setUser(user);
+      } else {
+        setUser("");
+      }
     });
   };
-  updateEmail = (event) => {
-    this.setState({
-      email: event.target.value,
-    });
-  };
-  handleLogin = () => {
-    // Checks the typed username and password from the controlled compoenents
-    // check if user exists in this.props.allUsers, and if the password is correct
-    // if true return the user object
-    // if false - show alert - password / user not found
-    const foundUser = this.props.allUsers.find((user) => {
-      return user.email === this.state.email && user.pwd === this.state.pwd;
-    });
-    // for(let i=0; i<this.props.allUsers.length; i++) {
-    //     if(user.email === this.state.email && user.pwd === this.state.pwd){
-    //         foundUser = this.props.allUsers[i];
-    //         break;
-    //     }
-    // }
 
-    if (foundUser) {
-      this.props.login(foundUser);
-      window.location.href = "/#/recipes";
-    } else {
-      alert(" Incorrect Email or Password");
-    }
-  };
-  render() {
-    return (
-      <div className="p-login">
-        <h1> Login to My Recipe Book</h1>
-        <Form className="mt-5">
-          <Form.Group as={Row} controlId="formHorizontalEmail">
-            <Form.Label column sm={2}>
-              Email
-            </Form.Label>
-            <Col sm={10}>
-              <Form.Control
-                type="email"
-                placeholder="Email"
-                name="email"
-                onChange={this.updateEmail}
-                value={this.state.email}
-              />
-            </Col>
-          </Form.Group>
+  useEffect(() => {
+    authListener();
+  }, []);
 
-          <Form.Group as={Row} controlId="formHorizontalPassword">
-            <Form.Label column sm={2}>
-              Password
-            </Form.Label>
-            <Col sm={10}>
-              <Form.Control
-                type="password"
-                placeholder="Password"
-                name="password"
-                onChange={this.updatePass}
-                value={this.state.password}
-              />
-            </Col>
-          </Form.Group>
+  return (
+    <div className="App">
+      {/* <Admin handleLogout={handleLogout} />
+       */}
 
-          <Form.Group as={Row}>
-            <Col sm={{ span: 10, offset: 2 }}>
-              <Button
-                onClick={this.handleLogin}
-                variant="success"
-                type="button"
-              >
-                Log in
-              </Button>
-            </Col>
-          </Form.Group>
-        </Form>
-        <Link to="/signup">Sign up</Link>
-      </div>
-    );
-  }
-}
+      <Login
+        email={email}
+        setEmail={setEmail}
+        password={password}
+        setPassword={setPassword}
+        handleLogin={handleLogin}
+        handleSignup={handleSignup}
+        hasAccount={hasAccount}
+        setHasAccount={setHasAccount}
+        emailError={emailError}
+        passwordError={passwordError}
+      />
+    </div>
+  );
+};
 
-export default Login;
+export default LoginPage;

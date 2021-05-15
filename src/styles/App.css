@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.header {
+  width: 100vh;
+  height: 15vh;
+}
+
+.footer {
+  width: 100vh;
+  height: 15vh;
+}
+
+.page-container {
+  width: 100vh;
+  height: 70vh;
+}
