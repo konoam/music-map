@@ -1,9 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+//components
 import Map from "../components/map";
 import ArtistsSideBar from "../components/ArtistsSideBar";
+import Filter from "../componentsFilter";
+//design
 import "../styles/Home.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 const HomePage = () => {
   return (
@@ -11,6 +13,7 @@ const HomePage = () => {
       <Row>
         <Col md={6}>
           <Map />
+          <Filter />
         </Col>
         <Col>
           <ArtistsSideBar className="sideBar" />
