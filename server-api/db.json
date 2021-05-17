@@ -1,0 +1,4891 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "city": "São Paulo",
+      "lat": -23.5504,
+      "lng": -46.6339,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São Paulo"
+    },
+    {
+      "id": 2,
+      "city": "Rio de Janeiro",
+      "lat": -22.9083,
+      "lng": -43.1964,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Rio de Janeiro"
+    },
+    {
+      "id": 3,
+      "city": "Belo Horizonte",
+      "lat": -19.8917,
+      "lng": -43.9478,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Belo Horizonte"
+    },
+    {
+      "id": 4,
+      "city": "Brasília",
+      "lat": -15.7744,
+      "lng": -48.0773,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Distrito Federal",
+      "name": "Brasília"
+    },
+    {
+      "id": 5,
+      "city": "Salvador",
+      "lat": -12.9708,
+      "lng": -38.5108,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Salvador"
+    },
+    {
+      "id": 6,
+      "city": "Fortaleza",
+      "lat": -3.7275,
+      "lng": -38.5275,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Fortaleza"
+    },
+    {
+      "id": 7,
+      "city": "Curitiba",
+      "lat": -25.4297,
+      "lng": -49.2719,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Curitiba"
+    },
+    {
+      "id": 8,
+      "city": "Manaus",
+      "lat": -3.1,
+      "lng": -60.0167,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amazonas",
+      "name": "Manaus"
+    },
+    {
+      "id": 9,
+      "city": "Vitória",
+      "lat": -20.324,
+      "lng": -40.366,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Espírito Santo",
+      "name": "Vitória"
+    },
+    {
+      "id": 10,
+      "city": "Recife",
+      "lat": -8.0539,
+      "lng": -34.8808,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Recife"
+    },
+    {
+      "id": 11,
+      "city": "Porto Alegre",
+      "lat": -30.0328,
+      "lng": -51.23,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Porto Alegre"
+    },
+    {
+      "id": 12,
+      "city": "Goiânia",
+      "lat": -16.6789,
+      "lng": -49.2539,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Goiânia"
+    },
+    {
+      "id": 13,
+      "city": "Belém",
+      "lat": -1.4558,
+      "lng": -48.5039,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Belém"
+    },
+    {
+      "id": 14,
+      "city": "Guarulhos",
+      "lat": -23.4667,
+      "lng": -46.5333,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Guarulhos"
+    },
+    {
+      "id": 15,
+      "city": "Vila Velha",
+      "lat": 3.2167,
+      "lng": -51.2167,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amapá",
+      "name": "Vila Velha"
+    },
+    {
+      "id": 16,
+      "city": "Campinas",
+      "lat": -22.9009,
+      "lng": -47.0573,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Campinas"
+    },
+    {
+      "id": 17,
+      "city": "São Luís",
+      "lat": -2.53,
+      "lng": -44.3028,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "São Luís"
+    },
+    {
+      "id": 18,
+      "city": "Maceió",
+      "lat": -9.6658,
+      "lng": -35.735,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Alagoas",
+      "name": "Maceió"
+    },
+    {
+      "id": 19,
+      "city": "Joinvile",
+      "lat": -26.32,
+      "lng": -48.8399,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Joinvile"
+    },
+    {
+      "id": 20,
+      "city": "Natal",
+      "lat": -6.9838,
+      "lng": -60.2699,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amazonas",
+      "name": "Natal"
+    },
+    {
+      "id": 21,
+      "city": "Olinda",
+      "lat": -8,
+      "lng": -34.85,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Olinda"
+    },
+    {
+      "id": 22,
+      "city": "Natal",
+      "lat": -5.795,
+      "lng": -35.2089,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Norte",
+      "name": "Natal"
+    },
+    {
+      "id": 23,
+      "city": "Novo Hamburgo",
+      "lat": -29.7096,
+      "lng": -51.14,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Novo Hamburgo"
+    },
+    {
+      "id": 24,
+      "city": "Campo Grande",
+      "lat": -20.4686,
+      "lng": -54.6222,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso do Sul",
+      "name": "Campo Grande"
+    },
+    {
+      "id": 25,
+      "city": "Teresina",
+      "lat": -5.0949,
+      "lng": -42.8042,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Piauí",
+      "name": "Teresina"
+    },
+    {
+      "id": 26,
+      "city": "Iguaçu",
+      "lat": -22.74,
+      "lng": -43.47,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Iguaçu"
+    },
+    {
+      "id": 27,
+      "city": "São Bernardo do Campo",
+      "lat": -23.6939,
+      "lng": -46.565,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São Bernardo do Campo"
+    },
+    {
+      "id": 28,
+      "city": "João Pessoa",
+      "lat": -7.0833,
+      "lng": -34.8333,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraíba",
+      "name": "João Pessoa"
+    },
+    {
+      "id": 29,
+      "city": "Santo André",
+      "lat": -23.6572,
+      "lng": -46.5333,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Santo André"
+    },
+    {
+      "id": 30,
+      "city": "Jaboatão",
+      "lat": -8.1803,
+      "lng": -35.0014,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Jaboatão"
+    },
+    {
+      "id": 31,
+      "city": "Osasco",
+      "lat": -23.5328,
+      "lng": -46.7919,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Osasco"
+    },
+    {
+      "id": 32,
+      "city": "São José dos Campos",
+      "lat": -23.1789,
+      "lng": -45.8869,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São José dos Campos"
+    },
+    {
+      "id": 33,
+      "city": "Aracaju",
+      "lat": -10.9111,
+      "lng": -37.0717,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Sergipe",
+      "name": "Aracaju"
+    },
+    {
+      "id": 34,
+      "city": "Ribeirão Prêto",
+      "lat": -21.1783,
+      "lng": -47.8067,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Ribeirão Prêto"
+    },
+    {
+      "id": 35,
+      "city": "São José dos Pinhais",
+      "lat": -25.57,
+      "lng": -49.18,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "São José dos Pinhais"
+    },
+    {
+      "id": 36,
+      "city": "Sorocaba",
+      "lat": -23.5019,
+      "lng": -47.4578,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Sorocaba"
+    },
+    {
+      "id": 37,
+      "city": "Uberlândia",
+      "lat": -18.9189,
+      "lng": -48.2769,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Uberlândia"
+    },
+    {
+      "id": 38,
+      "city": "Canoas",
+      "lat": -29.92,
+      "lng": -51.18,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Canoas"
+    },
+    {
+      "id": 39,
+      "city": "Cuiabá",
+      "lat": -15.5958,
+      "lng": -56.0969,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso",
+      "name": "Cuiabá"
+    },
+    {
+      "id": 40,
+      "city": "Londrina",
+      "lat": -23.3,
+      "lng": -51.18,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Londrina"
+    },
+    {
+      "id": 41,
+      "city": "Niterói",
+      "lat": -22.8833,
+      "lng": -43.1036,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Niterói"
+    },
+    {
+      "id": 42,
+      "city": "Feira de Santana",
+      "lat": -12.25,
+      "lng": -38.97,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Feira de Santana"
+    },
+    {
+      "id": 43,
+      "city": "Americana",
+      "lat": -22.7392,
+      "lng": -47.3314,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Americana"
+    },
+    {
+      "id": 44,
+      "city": "Florianópolis",
+      "lat": -27.5933,
+      "lng": -48.553,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Florianópolis"
+    },
+    {
+      "id": 45,
+      "city": "Macapá",
+      "lat": 0.033,
+      "lng": -51.0653,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amapá",
+      "name": "Macapá"
+    },
+    {
+      "id": 46,
+      "city": "Vila Velha",
+      "lat": -20.3364,
+      "lng": -40.2936,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Espírito Santo",
+      "name": "Vila Velha"
+    },
+    {
+      "id": 47,
+      "city": "Juiz de Fora",
+      "lat": -21.7642,
+      "lng": -43.3503,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Juiz de Fora"
+    },
+    {
+      "id": 48,
+      "city": "Volta Redonda",
+      "lat": -22.5196,
+      "lng": -44.095,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Volta Redonda"
+    },
+    {
+      "id": 49,
+      "city": "Mauá",
+      "lat": -23.6678,
+      "lng": -46.4608,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Mauá"
+    },
+    {
+      "id": 50,
+      "city": "São José do Rio Prêto",
+      "lat": -20.82,
+      "lng": -49.3789,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São José do Rio Prêto"
+    },
+    {
+      "id": 51,
+      "city": "Santos",
+      "lat": -23.9608,
+      "lng": -46.3339,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Santos"
+    },
+    {
+      "id": 52,
+      "city": "Mogi das Cruzes",
+      "lat": -23.5228,
+      "lng": -46.1931,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Mogi das Cruzes"
+    },
+    {
+      "id": 53,
+      "city": "Diadema",
+      "lat": -23.6858,
+      "lng": -46.6228,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Diadema"
+    },
+    {
+      "id": 54,
+      "city": "Ipatinga",
+      "lat": -19.4796,
+      "lng": -42.52,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Ipatinga"
+    },
+    {
+      "id": 55,
+      "city": "Campina Grande",
+      "lat": -7.2306,
+      "lng": -35.8811,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraíba",
+      "name": "Campina Grande"
+    },
+    {
+      "id": 56,
+      "city": "Jundiaí",
+      "lat": -23.1864,
+      "lng": -46.8842,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Jundiaí"
+    },
+    {
+      "id": 57,
+      "city": "Carapicuíba",
+      "lat": -23.5228,
+      "lng": -46.8358,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Carapicuíba"
+    },
+    {
+      "id": 58,
+      "city": "Campos",
+      "lat": -21.7523,
+      "lng": -41.3304,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Campos"
+    },
+    {
+      "id": 59,
+      "city": "Rio Branco",
+      "lat": -9.9781,
+      "lng": -67.8117,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Acre",
+      "name": "Rio Branco"
+    },
+    {
+      "id": 60,
+      "city": "Caxias do Sul",
+      "lat": -29.18,
+      "lng": -51.17,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Caxias do Sul"
+    },
+    {
+      "id": 61,
+      "city": "Bauru",
+      "lat": -22.3147,
+      "lng": -49.0606,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Bauru"
+    },
+    {
+      "id": 62,
+      "city": "Anápolis",
+      "lat": -16.3269,
+      "lng": -48.9528,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Anápolis"
+    },
+    {
+      "id": 63,
+      "city": "Montes Claros",
+      "lat": -16.7322,
+      "lng": -43.8636,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Montes Claros"
+    },
+    {
+      "id": 64,
+      "city": "São Vicente",
+      "lat": -23.9633,
+      "lng": -46.3922,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São Vicente"
+    },
+    {
+      "id": 65,
+      "city": "Itaquaquecetuba",
+      "lat": -23.4864,
+      "lng": -46.3486,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itaquaquecetuba"
+    },
+    {
+      "id": 66,
+      "city": "Piracicaba",
+      "lat": -22.725,
+      "lng": -47.6489,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Piracicaba"
+    },
+    {
+      "id": 67,
+      "city": "Franca",
+      "lat": -20.5389,
+      "lng": -47.4008,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Franca"
+    },
+    {
+      "id": 68,
+      "city": "Maringá",
+      "lat": -23.4095,
+      "lng": -51.93,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Maringá"
+    },
+    {
+      "id": 69,
+      "city": "Itajaí",
+      "lat": -26.8996,
+      "lng": -48.68,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Itajaí"
+    },
+    {
+      "id": 70,
+      "city": "Boa Vista",
+      "lat": 2.82,
+      "lng": -60.6719,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Roraima",
+      "name": "Boa Vista"
+    },
+    {
+      "id": 71,
+      "city": "Uberaba",
+      "lat": -19.7478,
+      "lng": -47.9319,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Uberaba"
+    },
+    {
+      "id": 72,
+      "city": "Pelotas",
+      "lat": -31.75,
+      "lng": -52.33,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Pelotas"
+    },
+    {
+      "id": 73,
+      "city": "Guarujá",
+      "lat": -23.9936,
+      "lng": -46.2564,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Guarujá"
+    },
+    {
+      "id": 74,
+      "city": "Blumenau",
+      "lat": -26.9189,
+      "lng": -49.0658,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Blumenau"
+    },
+    {
+      "id": 75,
+      "city": "Vitória da Conquista",
+      "lat": -14.8661,
+      "lng": -40.8394,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Vitória da Conquista"
+    },
+    {
+      "id": 76,
+      "city": "Porto Velho",
+      "lat": -8.7619,
+      "lng": -63.9039,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rondônia",
+      "name": "Porto Velho"
+    },
+    {
+      "id": 77,
+      "city": "Taubaté",
+      "lat": -23.0333,
+      "lng": -45.55,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Taubaté"
+    },
+    {
+      "id": 78,
+      "city": "Praia Grande",
+      "lat": -24.0058,
+      "lng": -46.4028,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Praia Grande"
+    },
+    {
+      "id": 79,
+      "city": "Petrópolis",
+      "lat": -22.505,
+      "lng": -43.1789,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Petrópolis"
+    },
+    {
+      "id": 80,
+      "city": "Limeira",
+      "lat": -22.5647,
+      "lng": -47.4017,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Limeira"
+    },
+    {
+      "id": 81,
+      "city": "Ponta Grossa",
+      "lat": -25.09,
+      "lng": -50.16,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Ponta Grossa"
+    },
+    {
+      "id": 82,
+      "city": "Crato",
+      "lat": -7.2342,
+      "lng": -39.4094,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Crato"
+    },
+    {
+      "id": 83,
+      "city": "Crato",
+      "lat": -7.4639,
+      "lng": -63.04,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amazonas",
+      "name": "Crato"
+    },
+    {
+      "id": 84,
+      "city": "Palmas",
+      "lat": -10.2128,
+      "lng": -48.3603,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Tocantins",
+      "name": "Palmas"
+    },
+    {
+      "id": 85,
+      "city": "Taboão da Serra",
+      "lat": -23.6019,
+      "lng": -46.7528,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Taboão da Serra"
+    },
+    {
+      "id": 86,
+      "city": "Marabá",
+      "lat": -5.3689,
+      "lng": -49.1178,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Marabá"
+    },
+    {
+      "id": 87,
+      "city": "Sumaré",
+      "lat": -22.8219,
+      "lng": -47.2669,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Sumaré"
+    },
+    {
+      "id": 88,
+      "city": "Barueri",
+      "lat": -23.5111,
+      "lng": -46.8764,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Barueri"
+    },
+    {
+      "id": 89,
+      "city": "Petrolina",
+      "lat": -9.38,
+      "lng": -40.51,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Petrolina"
+    },
+    {
+      "id": 90,
+      "city": "Cascavel",
+      "lat": -24.9558,
+      "lng": -53.4553,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Cascavel"
+    },
+    {
+      "id": 91,
+      "city": "Foz do Iguaçu",
+      "lat": -25.5478,
+      "lng": -54.5878,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Foz do Iguaçu"
+    },
+    {
+      "id": 92,
+      "city": "Governador Valadares",
+      "lat": -18.87,
+      "lng": -41.97,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Governador Valadares"
+    },
+    {
+      "id": 93,
+      "city": "Várzea Grande",
+      "lat": -15.65,
+      "lng": -56.14,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso",
+      "name": "Várzea Grande"
+    },
+    {
+      "id": 94,
+      "city": "Santa Maria",
+      "lat": -29.6833,
+      "lng": -53.8,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Santa Maria"
+    },
+    {
+      "id": 95,
+      "city": "Caruaru",
+      "lat": -8.28,
+      "lng": -35.98,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Caruaru"
+    },
+    {
+      "id": 96,
+      "city": "São Carlos",
+      "lat": -22.0178,
+      "lng": -47.8908,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São Carlos"
+    },
+    {
+      "id": 97,
+      "city": "Marília",
+      "lat": -22.2139,
+      "lng": -49.9458,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Marília"
+    },
+    {
+      "id": 98,
+      "city": "Indaiatuba",
+      "lat": -23.0903,
+      "lng": -47.2181,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Indaiatuba"
+    },
+    {
+      "id": 99,
+      "city": "Ilhéus",
+      "lat": -14.7936,
+      "lng": -39.0395,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Ilhéus"
+    },
+    {
+      "id": 100,
+      "city": "Santarém",
+      "lat": -2.4431,
+      "lng": -54.7083,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Santarém"
+    },
+    {
+      "id": 101,
+      "city": "Cotia",
+      "lat": -23.6039,
+      "lng": -46.9189,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Cotia"
+    },
+    {
+      "id": 102,
+      "city": "Jacareí",
+      "lat": -23.305,
+      "lng": -45.9658,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Jacareí"
+    },
+    {
+      "id": 103,
+      "city": "Araraquara",
+      "lat": -21.7939,
+      "lng": -48.1758,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Araraquara"
+    },
+    {
+      "id": 104,
+      "city": "Juazeiro do Norte",
+      "lat": -7.21,
+      "lng": -39.32,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Juazeiro do Norte"
+    },
+    {
+      "id": 105,
+      "city": "Itapevi",
+      "lat": -23.5489,
+      "lng": -46.9342,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itapevi"
+    },
+    {
+      "id": 106,
+      "city": "Presidente Prudente",
+      "lat": -22.1258,
+      "lng": -51.3889,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Presidente Prudente"
+    },
+    {
+      "id": 107,
+      "city": "Itabuna",
+      "lat": -14.7896,
+      "lng": -39.28,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Itabuna"
+    },
+    {
+      "id": 108,
+      "city": "Imperatriz",
+      "lat": -5.52,
+      "lng": -47.49,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Imperatriz"
+    },
+    {
+      "id": 109,
+      "city": "Hortolândia",
+      "lat": -22.8583,
+      "lng": -47.22,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Hortolândia"
+    },
+    {
+      "id": 110,
+      "city": "Criciúma",
+      "lat": -28.68,
+      "lng": -49.39,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Criciúma"
+    },
+    {
+      "id": 111,
+      "city": "Timon",
+      "lat": -5.115,
+      "lng": -42.845,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Timon"
+    },
+    {
+      "id": 112,
+      "city": "Mossoró",
+      "lat": -5.19,
+      "lng": -37.34,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Norte",
+      "name": "Mossoró"
+    },
+    {
+      "id": 113,
+      "city": "Sete Lagoas",
+      "lat": -19.4496,
+      "lng": -44.25,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Sete Lagoas"
+    },
+    {
+      "id": 114,
+      "city": "Rio Claro",
+      "lat": -22.4108,
+      "lng": -47.5608,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Rio Claro"
+    },
+    {
+      "id": 115,
+      "city": "Divinópolis",
+      "lat": -20.1495,
+      "lng": -44.9,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Divinópolis"
+    },
+    {
+      "id": 116,
+      "city": "Araçatuba",
+      "lat": -21.2089,
+      "lng": -50.4328,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Araçatuba"
+    },
+    {
+      "id": 117,
+      "city": "Santa Bárbara d’Oeste",
+      "lat": -22.7539,
+      "lng": -47.4139,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Santa Bárbara d’Oeste"
+    },
+    {
+      "id": 118,
+      "city": "Cachoeiro de Itapemirim",
+      "lat": -20.8489,
+      "lng": -41.1128,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Espírito Santo",
+      "name": "Cachoeiro de Itapemirim"
+    },
+    {
+      "id": 119,
+      "city": "Rio Grande",
+      "lat": -32.0495,
+      "lng": -52.12,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Rio Grande"
+    },
+    {
+      "id": 120,
+      "city": "Arapiraca",
+      "lat": -9.7525,
+      "lng": -36.6611,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Alagoas",
+      "name": "Arapiraca"
+    },
+    {
+      "id": 121,
+      "city": "Cabo Frio",
+      "lat": -22.8789,
+      "lng": -42.0189,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Cabo Frio"
+    },
+    {
+      "id": 122,
+      "city": "Santo Agostinho",
+      "lat": -8.2869,
+      "lng": -35.035,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Santo Agostinho"
+    },
+    {
+      "id": 123,
+      "city": "Ferraz de Vasconcelos",
+      "lat": -23.5411,
+      "lng": -46.3689,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Ferraz de Vasconcelos"
+    },
+    {
+      "id": 124,
+      "city": "Passo Fundo",
+      "lat": -28.25,
+      "lng": -52.42,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Passo Fundo"
+    },
+    {
+      "id": 125,
+      "city": "Nova Friburgo",
+      "lat": -22.26,
+      "lng": -42.54,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Nova Friburgo"
+    },
+    {
+      "id": 126,
+      "city": "Barra Mansa",
+      "lat": -22.56,
+      "lng": -44.17,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Barra Mansa"
+    },
+    {
+      "id": 127,
+      "city": "Francisco Morato",
+      "lat": -23.2817,
+      "lng": -46.7425,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Francisco Morato"
+    },
+    {
+      "id": 128,
+      "city": "Itapecerica da Serra",
+      "lat": -23.7172,
+      "lng": -46.8494,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itapecerica da Serra"
+    },
+    {
+      "id": 129,
+      "city": "Itu",
+      "lat": -23.2642,
+      "lng": -47.2992,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itu"
+    },
+    {
+      "id": 130,
+      "city": "Carpina",
+      "lat": -7.8508,
+      "lng": -35.2547,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Carpina"
+    },
+    {
+      "id": 131,
+      "city": "Dourados",
+      "lat": -22.23,
+      "lng": -54.81,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso do Sul",
+      "name": "Dourados"
+    },
+    {
+      "id": 132,
+      "city": "Bragança Paulista",
+      "lat": -22.9189,
+      "lng": -46.5425,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Bragança Paulista"
+    },
+    {
+      "id": 133,
+      "city": "Pindamonhangaba",
+      "lat": -22.9239,
+      "lng": -45.4617,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Pindamonhangaba"
+    },
+    {
+      "id": 134,
+      "city": "Chapecó",
+      "lat": -27.1,
+      "lng": -52.64,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Chapecó"
+    },
+    {
+      "id": 135,
+      "city": "Rio Largo",
+      "lat": -9.4783,
+      "lng": -35.8533,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Alagoas",
+      "name": "Rio Largo"
+    },
+    {
+      "id": 136,
+      "city": "Barreiras",
+      "lat": -12.1528,
+      "lng": -44.99,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Barreiras"
+    },
+    {
+      "id": 137,
+      "city": "São Caetano do Sul",
+      "lat": -23.6228,
+      "lng": -46.5508,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São Caetano do Sul"
+    },
+    {
+      "id": 138,
+      "city": "Sobral",
+      "lat": -3.6861,
+      "lng": -40.3497,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Sobral"
+    },
+    {
+      "id": 139,
+      "city": "Itapetininga",
+      "lat": -23.5917,
+      "lng": -48.0531,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itapetininga"
+    },
+    {
+      "id": 140,
+      "city": "Lajes",
+      "lat": -27.8158,
+      "lng": -50.3258,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Lajes"
+    },
+    {
+      "id": 141,
+      "city": "Rondonópolis",
+      "lat": -16.4695,
+      "lng": -54.64,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso",
+      "name": "Rondonópolis"
+    },
+    {
+      "id": 142,
+      "city": "Guarapuava",
+      "lat": -25.38,
+      "lng": -51.48,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Guarapuava"
+    },
+    {
+      "id": 143,
+      "city": "Patos de Minas",
+      "lat": -18.5871,
+      "lng": -46.5149,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Patos de Minas"
+    },
+    {
+      "id": 144,
+      "city": "Mogi Guaçu",
+      "lat": -22.3719,
+      "lng": -46.9419,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Mogi Guaçu"
+    },
+    {
+      "id": 145,
+      "city": "Poços de Caldas",
+      "lat": -21.78,
+      "lng": -46.57,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Poços de Caldas"
+    },
+    {
+      "id": 146,
+      "city": "Franco da Rocha",
+      "lat": -23.3286,
+      "lng": -46.7244,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Franco da Rocha"
+    },
+    {
+      "id": 147,
+      "city": "Jaú",
+      "lat": -22.2958,
+      "lng": -48.5578,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Jaú"
+    },
+    {
+      "id": 148,
+      "city": "Macaé",
+      "lat": -22.38,
+      "lng": -41.79,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Macaé"
+    },
+    {
+      "id": 149,
+      "city": "Paranaguá",
+      "lat": -25.5279,
+      "lng": -48.5345,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Paranaguá"
+    },
+    {
+      "id": 150,
+      "city": "Botucatu",
+      "lat": -22.8858,
+      "lng": -48.445,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Botucatu"
+    },
+    {
+      "id": 151,
+      "city": "Parnaíba",
+      "lat": -2.91,
+      "lng": -41.77,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Piauí",
+      "name": "Parnaíba"
+    },
+    {
+      "id": 152,
+      "city": "Castanhal",
+      "lat": -1.2939,
+      "lng": -47.9264,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Castanhal"
+    },
+    {
+      "id": 153,
+      "city": "Atibaia",
+      "lat": -23.1172,
+      "lng": -46.5506,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Atibaia"
+    },
+    {
+      "id": 154,
+      "city": "Jequié",
+      "lat": -13.85,
+      "lng": -40.08,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Jequié"
+    },
+    {
+      "id": 155,
+      "city": "Caxias",
+      "lat": -4.833,
+      "lng": -43.35,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Caxias"
+    },
+    {
+      "id": 156,
+      "city": "Jaraguá do Sul",
+      "lat": -26.48,
+      "lng": -49.1,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Jaraguá do Sul"
+    },
+    {
+      "id": 157,
+      "city": "Araras",
+      "lat": -22.3569,
+      "lng": -47.3839,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Araras"
+    },
+    {
+      "id": 158,
+      "city": "Cubatão",
+      "lat": -23.8953,
+      "lng": -46.4256,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Cubatão"
+    },
+    {
+      "id": 159,
+      "city": "Santana de Parnaíba",
+      "lat": -23.4439,
+      "lng": -46.9178,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Santana de Parnaíba"
+    },
+    {
+      "id": 160,
+      "city": "Barbacena",
+      "lat": -21.2258,
+      "lng": -43.7739,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Barbacena"
+    },
+    {
+      "id": 161,
+      "city": "Uruguaiana",
+      "lat": -29.755,
+      "lng": -57.0878,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Uruguaiana"
+    },
+    {
+      "id": 162,
+      "city": "Resende",
+      "lat": -22.4689,
+      "lng": -44.4469,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Resende"
+    },
+    {
+      "id": 163,
+      "city": "Alagoinhas",
+      "lat": -12.1356,
+      "lng": -38.4192,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Alagoinhas"
+    },
+    {
+      "id": 164,
+      "city": "Pôrto Seguro",
+      "lat": -16.4296,
+      "lng": -39.08,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Pôrto Seguro"
+    },
+    {
+      "id": 165,
+      "city": "Ribeirão Pires",
+      "lat": -23.7108,
+      "lng": -46.4128,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Ribeirão Pires"
+    },
+    {
+      "id": 166,
+      "city": "Valinhos",
+      "lat": -22.9708,
+      "lng": -46.9958,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Valinhos"
+    },
+    {
+      "id": 167,
+      "city": "Sertãozinho",
+      "lat": -21.1378,
+      "lng": -47.99,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Sertãozinho"
+    },
+    {
+      "id": 168,
+      "city": "Barretos",
+      "lat": -20.5569,
+      "lng": -48.5678,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Barretos"
+    },
+    {
+      "id": 169,
+      "city": "Guaratinguetá",
+      "lat": -22.8167,
+      "lng": -45.2278,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Guaratinguetá"
+    },
+    {
+      "id": 170,
+      "city": "Jandira",
+      "lat": -23.5278,
+      "lng": -46.9028,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Jandira"
+    },
+    {
+      "id": 171,
+      "city": "Santa Cruz do Sul",
+      "lat": -29.7178,
+      "lng": -52.4258,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Santa Cruz do Sul"
+    },
+    {
+      "id": 172,
+      "city": "Birigui",
+      "lat": -21.2889,
+      "lng": -50.34,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Birigui"
+    },
+    {
+      "id": 173,
+      "city": "Araguari",
+      "lat": -18.6489,
+      "lng": -48.1869,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Araguari"
+    },
+    {
+      "id": 174,
+      "city": "Tatuí",
+      "lat": -23.3556,
+      "lng": -47.8569,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Tatuí"
+    },
+    {
+      "id": 175,
+      "city": "Várzea Paulista",
+      "lat": -23.2108,
+      "lng": -46.8278,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Várzea Paulista"
+    },
+    {
+      "id": 176,
+      "city": "Pouso Alegre",
+      "lat": -22.22,
+      "lng": -45.94,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Pouso Alegre"
+    },
+    {
+      "id": 177,
+      "city": "Salto",
+      "lat": -23.2008,
+      "lng": -47.2869,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Salto"
+    },
+    {
+      "id": 178,
+      "city": "Poá",
+      "lat": -23.5286,
+      "lng": -46.345,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Poá"
+    },
+    {
+      "id": 179,
+      "city": "Caraguatatuba",
+      "lat": -23.62,
+      "lng": -45.4128,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Caraguatatuba"
+    },
+    {
+      "id": 180,
+      "city": "Ubá",
+      "lat": -21.12,
+      "lng": -42.9428,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Ubá"
+    },
+    {
+      "id": 181,
+      "city": "Itatiba",
+      "lat": -23.0058,
+      "lng": -46.8389,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itatiba"
+    },
+    {
+      "id": 182,
+      "city": "Conselheiro Lafaiete",
+      "lat": -20.67,
+      "lng": -43.79,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Conselheiro Lafaiete"
+    },
+    {
+      "id": 183,
+      "city": "Ourinhos",
+      "lat": -22.9789,
+      "lng": -49.8708,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Ourinhos"
+    },
+    {
+      "id": 184,
+      "city": "Garanhuns",
+      "lat": -8.89,
+      "lng": -36.5,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Garanhuns"
+    },
+    {
+      "id": 185,
+      "city": "Catanduva",
+      "lat": -21.14,
+      "lng": -48.98,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Catanduva"
+    },
+    {
+      "id": 186,
+      "city": "Corumbá",
+      "lat": -19.0089,
+      "lng": -57.6528,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso do Sul",
+      "name": "Corumbá"
+    },
+    {
+      "id": 187,
+      "city": "Apucarana",
+      "lat": -23.55,
+      "lng": -51.47,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Apucarana"
+    },
+    {
+      "id": 188,
+      "city": "Bagé",
+      "lat": -31.32,
+      "lng": -54.1,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Bagé"
+    },
+    {
+      "id": 189,
+      "city": "Linhares",
+      "lat": -19.39,
+      "lng": -40.05,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Espírito Santo",
+      "name": "Linhares"
+    },
+    {
+      "id": 190,
+      "city": "Araxá",
+      "lat": -19.5928,
+      "lng": -46.9408,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Araxá"
+    },
+    {
+      "id": 191,
+      "city": "Assis",
+      "lat": -22.6619,
+      "lng": -50.4119,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Assis"
+    },
+    {
+      "id": 192,
+      "city": "Santo Antônio de Jesus",
+      "lat": -12.9692,
+      "lng": -39.2611,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Santo Antônio de Jesus"
+    },
+    {
+      "id": 193,
+      "city": "Teófilo Otoni",
+      "lat": -17.87,
+      "lng": -41.5,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Teófilo Otoni"
+    },
+    {
+      "id": 194,
+      "city": "Mairiporã",
+      "lat": -23.3189,
+      "lng": -46.5869,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Mairiporã"
+    },
+    {
+      "id": 195,
+      "city": "Leme",
+      "lat": -22.1858,
+      "lng": -47.39,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Leme"
+    },
+    {
+      "id": 196,
+      "city": "Passos",
+      "lat": -20.71,
+      "lng": -46.61,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Passos"
+    },
+    {
+      "id": 197,
+      "city": "Paulínia",
+      "lat": -22.7611,
+      "lng": -47.1542,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Paulínia"
+    },
+    {
+      "id": 198,
+      "city": "Trindade",
+      "lat": -16.65,
+      "lng": -49.5,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Trindade"
+    },
+    {
+      "id": 199,
+      "city": "Arapongas",
+      "lat": -23.41,
+      "lng": -51.43,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Arapongas"
+    },
+    {
+      "id": 200,
+      "city": "Tubarão",
+      "lat": -28.4669,
+      "lng": -49.0069,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Tubarão"
+    },
+    {
+      "id": 201,
+      "city": "Ituiutaba",
+      "lat": -19.0151,
+      "lng": -49.5504,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Ituiutaba"
+    },
+    {
+      "id": 202,
+      "city": "Erechim",
+      "lat": -27.63,
+      "lng": -52.27,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Erechim"
+    },
+    {
+      "id": 203,
+      "city": "Juazeiro",
+      "lat": -9.42,
+      "lng": -40.5,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Juazeiro"
+    },
+    {
+      "id": 204,
+      "city": "Ponta Porã",
+      "lat": -22.5361,
+      "lng": -55.7256,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso do Sul",
+      "name": "Ponta Porã"
+    },
+    {
+      "id": 205,
+      "city": "Bento Gonçalves",
+      "lat": -29.1695,
+      "lng": -51.52,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Bento Gonçalves"
+    },
+    {
+      "id": 206,
+      "city": "Patos",
+      "lat": -7.0196,
+      "lng": -37.29,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraíba",
+      "name": "Patos"
+    },
+    {
+      "id": 207,
+      "city": "Itaituba",
+      "lat": -4.2761,
+      "lng": -55.9836,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Itaituba"
+    },
+    {
+      "id": 208,
+      "city": "Mogi Mirim",
+      "lat": -22.4319,
+      "lng": -46.9578,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Mogi Mirim"
+    },
+    {
+      "id": 209,
+      "city": "Votuporanga",
+      "lat": -20.4228,
+      "lng": -49.9728,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Votuporanga"
+    },
+    {
+      "id": 210,
+      "city": "Muriaé",
+      "lat": -21.13,
+      "lng": -42.39,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Muriaé"
+    },
+    {
+      "id": 211,
+      "city": "Caçapava",
+      "lat": -23.1008,
+      "lng": -45.7069,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Caçapava"
+    },
+    {
+      "id": 212,
+      "city": "Itanhaém",
+      "lat": -24.1831,
+      "lng": -46.7889,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itanhaém"
+    },
+    {
+      "id": 213,
+      "city": "São João da Boa Vista",
+      "lat": -21.9689,
+      "lng": -46.7978,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São João da Boa Vista"
+    },
+    {
+      "id": 214,
+      "city": "Brusque",
+      "lat": -27.13,
+      "lng": -48.93,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Brusque"
+    },
+    {
+      "id": 215,
+      "city": "Nova Lima",
+      "lat": -19.9858,
+      "lng": -43.8469,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Nova Lima"
+    },
+    {
+      "id": 216,
+      "city": "Catalão",
+      "lat": -18.17,
+      "lng": -47.9419,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Catalão"
+    },
+    {
+      "id": 217,
+      "city": "Ubatuba",
+      "lat": -23.4339,
+      "lng": -45.0708,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Ubatuba"
+    },
+    {
+      "id": 218,
+      "city": "Paulo Afonso",
+      "lat": -9.3307,
+      "lng": -38.2657,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Paulo Afonso"
+    },
+    {
+      "id": 219,
+      "city": "Cáceres",
+      "lat": -16.05,
+      "lng": -57.51,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso",
+      "name": "Cáceres"
+    },
+    {
+      "id": 220,
+      "city": "Arujá",
+      "lat": -23.3967,
+      "lng": -46.3211,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Arujá"
+    },
+    {
+      "id": 221,
+      "city": "Santana",
+      "lat": -0.0583,
+      "lng": -51.1817,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amapá",
+      "name": "Santana"
+    },
+    {
+      "id": 222,
+      "city": "Santana do Livramento",
+      "lat": -30.8908,
+      "lng": -55.5328,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Santana do Livramento"
+    },
+    {
+      "id": 223,
+      "city": "Codó",
+      "lat": -4.4796,
+      "lng": -43.88,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Codó"
+    },
+    {
+      "id": 224,
+      "city": "São Sebastião",
+      "lat": -23.76,
+      "lng": -45.41,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São Sebastião"
+    },
+    {
+      "id": 225,
+      "city": "Lavras",
+      "lat": -21.2453,
+      "lng": -44.9997,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Lavras"
+    },
+    {
+      "id": 226,
+      "city": "Matão",
+      "lat": -21.6033,
+      "lng": -48.3658,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Matão"
+    },
+    {
+      "id": 227,
+      "city": "Avaré",
+      "lat": -23.0986,
+      "lng": -48.9258,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Avaré"
+    },
+    {
+      "id": 228,
+      "city": "Formosa",
+      "lat": -15.5395,
+      "lng": -47.34,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Formosa"
+    },
+    {
+      "id": 229,
+      "city": "Campo Limpo",
+      "lat": -23.2064,
+      "lng": -46.7844,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Campo Limpo"
+    },
+    {
+      "id": 230,
+      "city": "Itumbiara",
+      "lat": -18.3996,
+      "lng": -49.21,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Itumbiara"
+    },
+    {
+      "id": 231,
+      "city": "Abaetetuba",
+      "lat": -1.7245,
+      "lng": -48.8849,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Abaetetuba"
+    },
+    {
+      "id": 232,
+      "city": "Três Lagoas",
+      "lat": -20.7876,
+      "lng": -51.7034,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso do Sul",
+      "name": "Três Lagoas"
+    },
+    {
+      "id": 233,
+      "city": "São João del Rei",
+      "lat": -21.13,
+      "lng": -44.25,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "São João del Rei"
+    },
+    {
+      "id": 234,
+      "city": "Bebedouro",
+      "lat": -20.9494,
+      "lng": -48.4792,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Bebedouro"
+    },
+    {
+      "id": 235,
+      "city": "Itaúna",
+      "lat": -20.0753,
+      "lng": -44.5764,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Itaúna"
+    },
+    {
+      "id": 236,
+      "city": "São Mateus",
+      "lat": -18.7201,
+      "lng": -39.8589,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Espírito Santo",
+      "name": "São Mateus"
+    },
+    {
+      "id": 237,
+      "city": "Jataí",
+      "lat": -17.8794,
+      "lng": -51.7217,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Jataí"
+    },
+    {
+      "id": 238,
+      "city": "Ibiúna",
+      "lat": -23.6564,
+      "lng": -47.2225,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Ibiúna"
+    },
+    {
+      "id": 239,
+      "city": "Tucuruí",
+      "lat": -3.68,
+      "lng": -49.72,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Tucuruí"
+    },
+    {
+      "id": 240,
+      "city": "Lins",
+      "lat": -21.6786,
+      "lng": -49.7425,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Lins"
+    },
+    {
+      "id": 241,
+      "city": "Jabuticabal",
+      "lat": -21.255,
+      "lng": -48.3219,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Jabuticabal"
+    },
+    {
+      "id": 242,
+      "city": "Campo Mourão",
+      "lat": -24.0496,
+      "lng": -52.42,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Campo Mourão"
+    },
+    {
+      "id": 243,
+      "city": "Cachoeira do Sul",
+      "lat": -30.03,
+      "lng": -52.91,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Cachoeira do Sul"
+    },
+    {
+      "id": 244,
+      "city": "Piraçununga",
+      "lat": -21.9961,
+      "lng": -47.4258,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Piraçununga"
+    },
+    {
+      "id": 245,
+      "city": "Itapira",
+      "lat": -22.4361,
+      "lng": -46.8217,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itapira"
+    },
+    {
+      "id": 246,
+      "city": "Três Corações",
+      "lat": -21.6947,
+      "lng": -45.2553,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Três Corações"
+    },
+    {
+      "id": 247,
+      "city": "Vinhedo",
+      "lat": -23.03,
+      "lng": -46.975,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Vinhedo"
+    },
+    {
+      "id": 248,
+      "city": "Bacabal",
+      "lat": -4.23,
+      "lng": -44.8,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Bacabal"
+    },
+    {
+      "id": 249,
+      "city": "Pôrto União",
+      "lat": -26.2396,
+      "lng": -51.08,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Pôrto União"
+    },
+    {
+      "id": 250,
+      "city": "Goiana",
+      "lat": -7.5606,
+      "lng": -35.0025,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Goiana"
+    },
+    {
+      "id": 251,
+      "city": "Ijuí",
+      "lat": -28.3878,
+      "lng": -53.9147,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Ijuí"
+    },
+    {
+      "id": 252,
+      "city": "Altamira",
+      "lat": -3.1996,
+      "lng": -52.21,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Altamira"
+    },
+    {
+      "id": 253,
+      "city": "Paracatu",
+      "lat": -17.2217,
+      "lng": -46.875,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Paracatu"
+    },
+    {
+      "id": 254,
+      "city": "Iguatu",
+      "lat": -6.3594,
+      "lng": -39.2986,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Iguatu"
+    },
+    {
+      "id": 255,
+      "city": "Guajará-Mirim",
+      "lat": -10.8,
+      "lng": -65.3499,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rondônia",
+      "name": "Guajará-Mirim"
+    },
+    {
+      "id": 256,
+      "city": "Mococa",
+      "lat": -21.4678,
+      "lng": -47.0047,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Mococa"
+    },
+    {
+      "id": 257,
+      "city": "Fernandópolis",
+      "lat": -20.2839,
+      "lng": -50.2458,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Fernandópolis"
+    },
+    {
+      "id": 258,
+      "city": "Balsas",
+      "lat": -7.5325,
+      "lng": -46.0356,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Balsas"
+    },
+    {
+      "id": 259,
+      "city": "Santa Inês",
+      "lat": -3.6667,
+      "lng": -45.38,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Santa Inês"
+    },
+    {
+      "id": 260,
+      "city": "Embu-Guaçu",
+      "lat": -23.8322,
+      "lng": -46.8117,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Embu-Guaçu"
+    },
+    {
+      "id": 261,
+      "city": "Cosmópolis",
+      "lat": -22.6458,
+      "lng": -47.1961,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Cosmópolis"
+    },
+    {
+      "id": 262,
+      "city": "Lençóis Paulista",
+      "lat": -22.5986,
+      "lng": -48.8003,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Lençóis Paulista"
+    },
+    {
+      "id": 263,
+      "city": "Tupã",
+      "lat": -21.935,
+      "lng": -50.5139,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Tupã"
+    },
+    {
+      "id": 264,
+      "city": "Rio Negro",
+      "lat": -26.1,
+      "lng": -49.79,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Rio Negro"
+    },
+    {
+      "id": 265,
+      "city": "Santo Ângelo",
+      "lat": -28.3,
+      "lng": -54.28,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Santo Ângelo"
+    },
+    {
+      "id": 266,
+      "city": "Ji-Paraná",
+      "lat": -10.8333,
+      "lng": -61.967,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rondônia",
+      "name": "Ji-Paraná"
+    },
+    {
+      "id": 267,
+      "city": "Gurupi",
+      "lat": -11.7292,
+      "lng": -49.0686,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Tocantins",
+      "name": "Gurupi"
+    },
+    {
+      "id": 268,
+      "city": "Parintins",
+      "lat": -2.61,
+      "lng": -56.74,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amazonas",
+      "name": "Parintins"
+    },
+    {
+      "id": 269,
+      "city": "Curvelo",
+      "lat": -18.7564,
+      "lng": -44.4308,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Curvelo"
+    },
+    {
+      "id": 270,
+      "city": "Caçador",
+      "lat": -26.7753,
+      "lng": -51.015,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Caçador"
+    },
+    {
+      "id": 271,
+      "city": "Irecê",
+      "lat": -11.3042,
+      "lng": -41.8558,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Irecê"
+    },
+    {
+      "id": 272,
+      "city": "Valença",
+      "lat": -13.3703,
+      "lng": -39.0731,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Valença"
+    },
+    {
+      "id": 273,
+      "city": "Vilhena",
+      "lat": -12.7166,
+      "lng": -60.1166,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rondônia",
+      "name": "Vilhena"
+    },
+    {
+      "id": 274,
+      "city": "Itapeva",
+      "lat": -23.9822,
+      "lng": -48.8756,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itapeva"
+    },
+    {
+      "id": 275,
+      "city": "Cruz Alta",
+      "lat": -28.6386,
+      "lng": -53.6064,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Cruz Alta"
+    },
+    {
+      "id": 276,
+      "city": "Penápolis",
+      "lat": -21.42,
+      "lng": -50.0778,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Penápolis"
+    },
+    {
+      "id": 277,
+      "city": "Canela",
+      "lat": -29.36,
+      "lng": -50.81,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Canela"
+    },
+    {
+      "id": 278,
+      "city": "Batatais",
+      "lat": -20.8911,
+      "lng": -47.585,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Batatais"
+    },
+    {
+      "id": 279,
+      "city": "Pirapora",
+      "lat": -17.345,
+      "lng": -44.9419,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Pirapora"
+    },
+    {
+      "id": 280,
+      "city": "Caratinga",
+      "lat": -19.79,
+      "lng": -42.14,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Caratinga"
+    },
+    {
+      "id": 281,
+      "city": "Itapetinga",
+      "lat": -15.2489,
+      "lng": -40.2478,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Itapetinga"
+    },
+    {
+      "id": 282,
+      "city": "São Borja",
+      "lat": -28.6606,
+      "lng": -56.0044,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "São Borja"
+    },
+    {
+      "id": 283,
+      "city": "Caràzinho",
+      "lat": -28.2839,
+      "lng": -52.7864,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Caràzinho"
+    },
+    {
+      "id": 284,
+      "city": "Santa Rosa",
+      "lat": -27.8708,
+      "lng": -54.4814,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Santa Rosa"
+    },
+    {
+      "id": 285,
+      "city": "Manacapuru",
+      "lat": -3.2997,
+      "lng": -60.6206,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amazonas",
+      "name": "Manacapuru"
+    },
+    {
+      "id": 286,
+      "city": "Telêmaco Borba",
+      "lat": -24.3239,
+      "lng": -50.6156,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Telêmaco Borba"
+    },
+    {
+      "id": 287,
+      "city": "Guanambi",
+      "lat": -14.2233,
+      "lng": -42.7814,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Guanambi"
+    },
+    {
+      "id": 288,
+      "city": "Ariquemes",
+      "lat": -9.9396,
+      "lng": -63.08,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rondônia",
+      "name": "Ariquemes"
+    },
+    {
+      "id": 289,
+      "city": "Mirassol",
+      "lat": -20.8189,
+      "lng": -49.5208,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Mirassol"
+    },
+    {
+      "id": 290,
+      "city": "Ibitinga",
+      "lat": -21.7578,
+      "lng": -48.8289,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Ibitinga"
+    },
+    {
+      "id": 291,
+      "city": "Timbaúba",
+      "lat": -7.5053,
+      "lng": -35.3183,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Timbaúba"
+    },
+    {
+      "id": 292,
+      "city": "Picos",
+      "lat": -7.0769,
+      "lng": -41.4669,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Piauí",
+      "name": "Picos"
+    },
+    {
+      "id": 293,
+      "city": "Andradina",
+      "lat": -20.8654,
+      "lng": -51.3157,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Andradina"
+    },
+    {
+      "id": 294,
+      "city": "Bragança",
+      "lat": -1.0536,
+      "lng": -46.7656,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Bragança"
+    },
+    {
+      "id": 295,
+      "city": "Arcoverde",
+      "lat": -8.42,
+      "lng": -37.07,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Arcoverde"
+    },
+    {
+      "id": 296,
+      "city": "Cruzeiro do Sul",
+      "lat": -7.63,
+      "lng": -72.67,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Acre",
+      "name": "Cruzeiro do Sul"
+    },
+    {
+      "id": 297,
+      "city": "Serrinha",
+      "lat": -11.6642,
+      "lng": -39.0075,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Serrinha"
+    },
+    {
+      "id": 298,
+      "city": "Vacaria",
+      "lat": -28.5122,
+      "lng": -50.9339,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Vacaria"
+    },
+    {
+      "id": 299,
+      "city": "Nova Odessa",
+      "lat": -22.7797,
+      "lng": -47.2962,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Nova Odessa"
+    },
+    {
+      "id": 300,
+      "city": "Taquaritinga",
+      "lat": -21.4058,
+      "lng": -48.505,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Taquaritinga"
+    },
+    {
+      "id": 301,
+      "city": "Janaúba",
+      "lat": -15.8025,
+      "lng": -43.3089,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Janaúba"
+    },
+    {
+      "id": 302,
+      "city": "Bertioga",
+      "lat": -23.8539,
+      "lng": -46.1389,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Bertioga"
+    },
+    {
+      "id": 303,
+      "city": "Formiga",
+      "lat": -20.4644,
+      "lng": -45.4264,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Formiga"
+    },
+    {
+      "id": 304,
+      "city": "Registro",
+      "lat": -24.4878,
+      "lng": -47.8439,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Registro"
+    },
+    {
+      "id": 305,
+      "city": "Nova Viçosa",
+      "lat": -17.8919,
+      "lng": -39.3719,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Nova Viçosa"
+    },
+    {
+      "id": 306,
+      "city": "Itapipoca",
+      "lat": -3.4995,
+      "lng": -39.58,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Itapipoca"
+    },
+    {
+      "id": 307,
+      "city": "Boituva",
+      "lat": -23.2833,
+      "lng": -47.6722,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Boituva"
+    },
+    {
+      "id": 308,
+      "city": "Estância",
+      "lat": -11.2683,
+      "lng": -37.4383,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Sergipe",
+      "name": "Estância"
+    },
+    {
+      "id": 309,
+      "city": "São Gabriel",
+      "lat": -30.3364,
+      "lng": -54.32,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "São Gabriel"
+    },
+    {
+      "id": 310,
+      "city": "Monte Mor",
+      "lat": -22.9467,
+      "lng": -47.315,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Monte Mor"
+    },
+    {
+      "id": 311,
+      "city": "Concórdia",
+      "lat": -27.2342,
+      "lng": -52.0278,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Concórdia"
+    },
+    {
+      "id": 312,
+      "city": "São José de Ribamar",
+      "lat": -2.55,
+      "lng": -44.07,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "São José de Ribamar"
+    },
+    {
+      "id": 313,
+      "city": "Caicó",
+      "lat": -6.4596,
+      "lng": -37.1,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Norte",
+      "name": "Caicó"
+    },
+    {
+      "id": 314,
+      "city": "Pôrto Ferreira",
+      "lat": -21.8539,
+      "lng": -47.4789,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Pôrto Ferreira"
+    },
+    {
+      "id": 315,
+      "city": "São José do Rio Pardo",
+      "lat": -21.5958,
+      "lng": -46.8889,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São José do Rio Pardo"
+    },
+    {
+      "id": 316,
+      "city": "Itupeva",
+      "lat": -23.1531,
+      "lng": -47.0578,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itupeva"
+    },
+    {
+      "id": 317,
+      "city": "Olímpia",
+      "lat": -20.7369,
+      "lng": -48.915,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Olímpia"
+    },
+    {
+      "id": 318,
+      "city": "Coari",
+      "lat": -4.085,
+      "lng": -63.1414,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amazonas",
+      "name": "Coari"
+    },
+    {
+      "id": 319,
+      "city": "Camaquã",
+      "lat": -30.8511,
+      "lng": -51.8122,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Camaquã"
+    },
+    {
+      "id": 320,
+      "city": "Capivari",
+      "lat": -22.995,
+      "lng": -47.5078,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Capivari"
+    },
+    {
+      "id": 321,
+      "city": "Crateús",
+      "lat": -5.1783,
+      "lng": -40.6775,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Crateús"
+    },
+    {
+      "id": 322,
+      "city": "Mongaguá",
+      "lat": -24.0869,
+      "lng": -46.6289,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Mongaguá"
+    },
+    {
+      "id": 323,
+      "city": "Barra do Garças",
+      "lat": -15.8796,
+      "lng": -52.26,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso",
+      "name": "Barra do Garças"
+    },
+    {
+      "id": 324,
+      "city": "Porto Feliz",
+      "lat": -23.215,
+      "lng": -47.5239,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Porto Feliz"
+    },
+    {
+      "id": 325,
+      "city": "Jaguariúna",
+      "lat": -22.68,
+      "lng": -46.99,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Jaguariúna"
+    },
+    {
+      "id": 326,
+      "city": "Itacoatiara",
+      "lat": -3.1431,
+      "lng": -58.4442,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amazonas",
+      "name": "Itacoatiara"
+    },
+    {
+      "id": 327,
+      "city": "Tefé",
+      "lat": -3.3684,
+      "lng": -64.7205,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amazonas",
+      "name": "Tefé"
+    },
+    {
+      "id": 328,
+      "city": "Campos do Jordão",
+      "lat": -22.7394,
+      "lng": -45.5914,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Campos do Jordão"
+    },
+    {
+      "id": 329,
+      "city": "Araguaína",
+      "lat": -7.19,
+      "lng": -48.21,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Tocantins",
+      "name": "Araguaína"
+    },
+    {
+      "id": 330,
+      "city": "São Joaquim da Barra",
+      "lat": -20.5808,
+      "lng": -47.855,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São Joaquim da Barra"
+    },
+    {
+      "id": 331,
+      "city": "Itararé",
+      "lat": -24.1125,
+      "lng": -49.3317,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itararé"
+    },
+    {
+      "id": 332,
+      "city": "Quixadá",
+      "lat": -4.9714,
+      "lng": -39.0153,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Quixadá"
+    },
+    {
+      "id": 333,
+      "city": "Jales",
+      "lat": -20.2689,
+      "lng": -50.5458,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Jales"
+    },
+    {
+      "id": 334,
+      "city": "Barra do Corda",
+      "lat": -5.5031,
+      "lng": -45.2369,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Barra do Corda"
+    },
+    {
+      "id": 335,
+      "city": "Floriano",
+      "lat": -6.7669,
+      "lng": -43.0225,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Piauí",
+      "name": "Floriano"
+    },
+    {
+      "id": 336,
+      "city": "Senhor do Bonfim",
+      "lat": -10.4614,
+      "lng": -40.1894,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Senhor do Bonfim"
+    },
+    {
+      "id": 337,
+      "city": "Rio Verde",
+      "lat": -17.8196,
+      "lng": -50.93,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Rio Verde"
+    },
+    {
+      "id": 338,
+      "city": "Rio Grande da Serra",
+      "lat": -23.7439,
+      "lng": -46.3978,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Rio Grande da Serra"
+    },
+    {
+      "id": 339,
+      "city": "Ponte Nova",
+      "lat": -20.4164,
+      "lng": -42.9086,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Ponte Nova"
+    },
+    {
+      "id": 340,
+      "city": "Guaxupé",
+      "lat": -21.3053,
+      "lng": -46.7128,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Guaxupé"
+    },
+    {
+      "id": 341,
+      "city": "Goianésia",
+      "lat": -15.3175,
+      "lng": -49.1175,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Goianésia"
+    },
+    {
+      "id": 342,
+      "city": "Capanema",
+      "lat": -1.1958,
+      "lng": -47.1808,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Capanema"
+    },
+    {
+      "id": 343,
+      "city": "Itamaraju",
+      "lat": -17.0392,
+      "lng": -39.5311,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Itamaraju"
+    },
+    {
+      "id": 344,
+      "city": "Campo Belo",
+      "lat": -20.8896,
+      "lng": -45.28,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Campo Belo"
+    },
+    {
+      "id": 345,
+      "city": "Capão Bonito",
+      "lat": -24.0058,
+      "lng": -48.3494,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Capão Bonito"
+    },
+    {
+      "id": 346,
+      "city": "Itaberaba",
+      "lat": -12.5275,
+      "lng": -40.3069,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Itaberaba"
+    },
+    {
+      "id": 347,
+      "city": "Breves",
+      "lat": -1.6822,
+      "lng": -50.4803,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Breves"
+    },
+    {
+      "id": 348,
+      "city": "Leopoldina",
+      "lat": -21.5319,
+      "lng": -42.6431,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Leopoldina"
+    },
+    {
+      "id": 349,
+      "city": "Santa Cruz do Rio Pardo",
+      "lat": -22.8989,
+      "lng": -49.6328,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Santa Cruz do Rio Pardo"
+    },
+    {
+      "id": 350,
+      "city": "Cabreúva",
+      "lat": -23.3075,
+      "lng": -47.1331,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Cabreúva"
+    },
+    {
+      "id": 351,
+      "city": "Mairinque",
+      "lat": -23.5464,
+      "lng": -47.1836,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Mairinque"
+    },
+    {
+      "id": 352,
+      "city": "Pontal",
+      "lat": -21.0225,
+      "lng": -48.0372,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Pontal"
+    },
+    {
+      "id": 353,
+      "city": "Dracena",
+      "lat": -21.4825,
+      "lng": -51.5328,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Dracena"
+    },
+    {
+      "id": 354,
+      "city": "Irati",
+      "lat": -25.4672,
+      "lng": -50.6511,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Irati"
+    },
+    {
+      "id": 355,
+      "city": "Cametá",
+      "lat": -2.2396,
+      "lng": -49.51,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Cametá"
+    },
+    {
+      "id": 356,
+      "city": "Cerquilho Velho",
+      "lat": -23.165,
+      "lng": -47.7436,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Cerquilho Velho"
+    },
+    {
+      "id": 357,
+      "city": "Pederneiras",
+      "lat": -22.3517,
+      "lng": -48.775,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Pederneiras"
+    },
+    {
+      "id": 358,
+      "city": "Piripiri",
+      "lat": -4.2733,
+      "lng": -41.7769,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Piauí",
+      "name": "Piripiri"
+    },
+    {
+      "id": 359,
+      "city": "Paraguaçu Paulista",
+      "lat": -22.4197,
+      "lng": -50.5797,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Paraguaçu Paulista"
+    },
+    {
+      "id": 360,
+      "city": "Garça",
+      "lat": -22.2153,
+      "lng": -49.6511,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Garça"
+    },
+    {
+      "id": 361,
+      "city": "Camocim",
+      "lat": -2.9022,
+      "lng": -40.8411,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Camocim"
+    },
+    {
+      "id": 362,
+      "city": "Aracati",
+      "lat": -4.5617,
+      "lng": -37.7697,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Aracati"
+    },
+    {
+      "id": 363,
+      "city": "Inhumas",
+      "lat": -16.3578,
+      "lng": -49.4961,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Inhumas"
+    },
+    {
+      "id": 364,
+      "city": "Pinhal",
+      "lat": -22.1908,
+      "lng": -46.7408,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Pinhal"
+    },
+    {
+      "id": 365,
+      "city": "Louveira",
+      "lat": -23.0864,
+      "lng": -46.9506,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Louveira"
+    },
+    {
+      "id": 366,
+      "city": "Salto de Pirapora",
+      "lat": -23.6489,
+      "lng": -47.5728,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Salto de Pirapora"
+    },
+    {
+      "id": 367,
+      "city": "Presidente Epitácio",
+      "lat": -21.7633,
+      "lng": -52.1156,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Presidente Epitácio"
+    },
+    {
+      "id": 368,
+      "city": "Imbituba",
+      "lat": -28.2296,
+      "lng": -48.66,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Imbituba"
+    },
+    {
+      "id": 369,
+      "city": "Araranguá",
+      "lat": -28.9357,
+      "lng": -49.4954,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Araranguá"
+    },
+    {
+      "id": 370,
+      "city": "Canindé",
+      "lat": -4.3589,
+      "lng": -39.3117,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Canindé"
+    },
+    {
+      "id": 371,
+      "city": "Orlândia",
+      "lat": -20.7203,
+      "lng": -47.8867,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Orlândia"
+    },
+    {
+      "id": 372,
+      "city": "Itápolis",
+      "lat": -21.5958,
+      "lng": -48.8128,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Itápolis"
+    },
+    {
+      "id": 373,
+      "city": "Salgueiro",
+      "lat": -8.0742,
+      "lng": -39.1192,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Salgueiro"
+    },
+    {
+      "id": 374,
+      "city": "Penedo",
+      "lat": -10.2903,
+      "lng": -36.5864,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Alagoas",
+      "name": "Penedo"
+    },
+    {
+      "id": 375,
+      "city": "Castro",
+      "lat": -24.7893,
+      "lng": -50.0123,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Castro"
+    },
+    {
+      "id": 376,
+      "city": "Brumado",
+      "lat": -14.2036,
+      "lng": -41.6653,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Brumado"
+    },
+    {
+      "id": 377,
+      "city": "Jardinópolis",
+      "lat": -21.0178,
+      "lng": -47.7639,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Jardinópolis"
+    },
+    {
+      "id": 378,
+      "city": "Jaguaquara",
+      "lat": -13.53,
+      "lng": -39.97,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Jaguaquara"
+    },
+    {
+      "id": 379,
+      "city": "Canoinhas",
+      "lat": -26.1772,
+      "lng": -50.39,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Canoinhas"
+    },
+    {
+      "id": 380,
+      "city": "Palmeira dos Índios",
+      "lat": -9.4166,
+      "lng": -36.6166,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Alagoas",
+      "name": "Palmeira dos Índios"
+    },
+    {
+      "id": 381,
+      "city": "Salinópolis",
+      "lat": -0.6136,
+      "lng": -47.3561,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Salinópolis"
+    },
+    {
+      "id": 382,
+      "city": "Frutal",
+      "lat": -20.0247,
+      "lng": -48.9406,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Frutal"
+    },
+    {
+      "id": 383,
+      "city": "Chapadinha",
+      "lat": -3.7417,
+      "lng": -43.3603,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Chapadinha"
+    },
+    {
+      "id": 384,
+      "city": "Aquidauana",
+      "lat": -20.4711,
+      "lng": -55.7872,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso do Sul",
+      "name": "Aquidauana"
+    },
+    {
+      "id": 385,
+      "city": "Bom Jesus da Lapa",
+      "lat": -13.2495,
+      "lng": -43.44,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Bom Jesus da Lapa"
+    },
+    {
+      "id": 386,
+      "city": "Alta Floresta",
+      "lat": -9.9,
+      "lng": -55.91,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso",
+      "name": "Alta Floresta"
+    },
+    {
+      "id": 387,
+      "city": "São Manuel",
+      "lat": -22.7308,
+      "lng": -48.5708,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São Manuel"
+    },
+    {
+      "id": 388,
+      "city": "Tietê",
+      "lat": -23.1019,
+      "lng": -47.715,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Tietê"
+    },
+    {
+      "id": 389,
+      "city": "Laguna",
+      "lat": -28.48,
+      "lng": -48.78,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Laguna"
+    },
+    {
+      "id": 390,
+      "city": "Socorro",
+      "lat": -22.5908,
+      "lng": -46.5289,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Socorro"
+    },
+    {
+      "id": 391,
+      "city": "Novo Horizonte",
+      "lat": -21.4678,
+      "lng": -49.2208,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Novo Horizonte"
+    },
+    {
+      "id": 392,
+      "city": "Russas",
+      "lat": -4.9403,
+      "lng": -37.9758,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Russas"
+    },
+    {
+      "id": 393,
+      "city": "Presidente Venceslau",
+      "lat": -21.8761,
+      "lng": -51.8439,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Presidente Venceslau"
+    },
+    {
+      "id": 394,
+      "city": "Palmas",
+      "lat": -26.4842,
+      "lng": -51.9906,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Palmas"
+    },
+    {
+      "id": 395,
+      "city": "Mineiros",
+      "lat": -17.5694,
+      "lng": -52.5511,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Mineiros"
+    },
+    {
+      "id": 396,
+      "city": "Pinheiro",
+      "lat": -2.5196,
+      "lng": -45.09,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Pinheiro"
+    },
+    {
+      "id": 397,
+      "city": "Joaçaba",
+      "lat": -27.17,
+      "lng": -51.5,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "Joaçaba"
+    },
+    {
+      "id": 398,
+      "city": "Promissão",
+      "lat": -21.5369,
+      "lng": -49.8583,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Promissão"
+    },
+    {
+      "id": 399,
+      "city": "Guariba",
+      "lat": -21.36,
+      "lng": -48.2283,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Guariba"
+    },
+    {
+      "id": 400,
+      "city": "Pitangueiras",
+      "lat": -21.0094,
+      "lng": -48.2217,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Pitangueiras"
+    },
+    {
+      "id": 401,
+      "city": "Américo Brasiliense",
+      "lat": -21.7361,
+      "lng": -48.1114,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Américo Brasiliense"
+    },
+    {
+      "id": 402,
+      "city": "Remanso",
+      "lat": -9.5996,
+      "lng": -42.11,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Remanso"
+    },
+    {
+      "id": 403,
+      "city": "Visconde do Rio Branco",
+      "lat": -21.0103,
+      "lng": -42.8406,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Visconde do Rio Branco"
+    },
+    {
+      "id": 404,
+      "city": "Nanuque",
+      "lat": -17.8392,
+      "lng": -40.3539,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Nanuque"
+    },
+    {
+      "id": 405,
+      "city": "Diamantina",
+      "lat": -18.24,
+      "lng": -43.61,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Diamantina"
+    },
+    {
+      "id": 406,
+      "city": "Rosário do Sul",
+      "lat": -30.2583,
+      "lng": -54.9142,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Rosário do Sul"
+    },
+    {
+      "id": 407,
+      "city": "Cristalina",
+      "lat": -16.7677,
+      "lng": -47.6153,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Cristalina"
+    },
+    {
+      "id": 408,
+      "city": "Agudos",
+      "lat": -22.4739,
+      "lng": -48.9836,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Agudos"
+    },
+    {
+      "id": 409,
+      "city": "Guaíra",
+      "lat": -24.09,
+      "lng": -54.27,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Guaíra"
+    },
+    {
+      "id": 410,
+      "city": "Barra Bonita",
+      "lat": -22.4947,
+      "lng": -48.5581,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Barra Bonita"
+    },
+    {
+      "id": 411,
+      "city": "São Francisco do Sul",
+      "lat": -26.2433,
+      "lng": -48.6381,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Santa Catarina",
+      "name": "São Francisco do Sul"
+    },
+    {
+      "id": 412,
+      "city": "Açu",
+      "lat": -5.5796,
+      "lng": -36.9101,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Norte",
+      "name": "Açu"
+    },
+    {
+      "id": 413,
+      "city": "Oriximiná",
+      "lat": -1.7656,
+      "lng": -55.8661,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Oriximiná"
+    },
+    {
+      "id": 414,
+      "city": "Barreiros",
+      "lat": -8.8183,
+      "lng": -35.1864,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pernambuco",
+      "name": "Barreiros"
+    },
+    {
+      "id": 415,
+      "city": "José Bonifácio",
+      "lat": -21.0528,
+      "lng": -49.6878,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "José Bonifácio"
+    },
+    {
+      "id": 416,
+      "city": "Xique-Xique",
+      "lat": -10.8229,
+      "lng": -42.7281,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Xique-Xique"
+    },
+    {
+      "id": 417,
+      "city": "Jacarèzinho",
+      "lat": -23.1606,
+      "lng": -49.9694,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Paraná",
+      "name": "Jacarèzinho"
+    },
+    {
+      "id": 418,
+      "city": "Adamantina",
+      "lat": -21.6847,
+      "lng": -51.0733,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Adamantina"
+    },
+    {
+      "id": 419,
+      "city": "Itapecuru Mirim",
+      "lat": -3.3925,
+      "lng": -44.3586,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Itapecuru Mirim"
+    },
+    {
+      "id": 420,
+      "city": "Aguaí",
+      "lat": -22.0603,
+      "lng": -46.9736,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Aguaí"
+    },
+    {
+      "id": 421,
+      "city": "Januária",
+      "lat": -15.4886,
+      "lng": -44.36,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Januária"
+    },
+    {
+      "id": 422,
+      "city": "Osório",
+      "lat": -29.8867,
+      "lng": -50.2697,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Osório"
+    },
+    {
+      "id": 423,
+      "city": "Morrinhos",
+      "lat": -17.7311,
+      "lng": -49.0994,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Morrinhos"
+    },
+    {
+      "id": 424,
+      "city": "Coroatá",
+      "lat": -4.13,
+      "lng": -44.1242,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Coroatá"
+    },
+    {
+      "id": 425,
+      "city": "Cravinhos",
+      "lat": -21.3403,
+      "lng": -47.7294,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Cravinhos"
+    },
+    {
+      "id": 426,
+      "city": "Bariri",
+      "lat": -22.0744,
+      "lng": -48.7403,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Bariri"
+    },
+    {
+      "id": 427,
+      "city": "Ibaté",
+      "lat": -21.955,
+      "lng": -47.9969,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Ibaté"
+    },
+    {
+      "id": 428,
+      "city": "Iperó",
+      "lat": -23.3503,
+      "lng": -47.6886,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Iperó"
+    },
+    {
+      "id": 429,
+      "city": "Canavieiras",
+      "lat": -15.675,
+      "lng": -38.9472,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Canavieiras"
+    },
+    {
+      "id": 430,
+      "city": "Descalvado",
+      "lat": -21.9039,
+      "lng": -47.6189,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Descalvado"
+    },
+    {
+      "id": 431,
+      "city": "São Miguel Arcanjo",
+      "lat": -23.8778,
+      "lng": -47.9969,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "São Miguel Arcanjo"
+    },
+    {
+      "id": 432,
+      "city": "Santa Cruz das Palmeiras",
+      "lat": -21.8269,
+      "lng": -47.2489,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Santa Cruz das Palmeiras"
+    },
+    {
+      "id": 433,
+      "city": "Capitão Poço",
+      "lat": -1.7464,
+      "lng": -47.0594,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Capitão Poço"
+    },
+    {
+      "id": 434,
+      "city": "Maués",
+      "lat": -3.3896,
+      "lng": -57.72,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Amazonas",
+      "name": "Maués"
+    },
+    {
+      "id": 435,
+      "city": "Osvaldo Cruz",
+      "lat": -21.7967,
+      "lng": -50.8786,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Osvaldo Cruz"
+    },
+    {
+      "id": 436,
+      "city": "Guararapes",
+      "lat": -21.2608,
+      "lng": -50.6428,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Guararapes"
+    },
+    {
+      "id": 437,
+      "city": "Cachoeira Paulista",
+      "lat": -22.665,
+      "lng": -45.0094,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Cachoeira Paulista"
+    },
+    {
+      "id": 438,
+      "city": "Paranaíba",
+      "lat": -19.6772,
+      "lng": -51.1908,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso do Sul",
+      "name": "Paranaíba"
+    },
+    {
+      "id": 439,
+      "city": "Ilhabela",
+      "lat": -23.7778,
+      "lng": -45.3578,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Ilhabela"
+    },
+    {
+      "id": 440,
+      "city": "Bocaiúva",
+      "lat": -17.1078,
+      "lng": -43.815,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Bocaiúva"
+    },
+    {
+      "id": 441,
+      "city": "São Luís Gonzaga",
+      "lat": -28.4083,
+      "lng": -54.9608,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "São Luís Gonzaga"
+    },
+    {
+      "id": 442,
+      "city": "Campo Maior",
+      "lat": -4.8278,
+      "lng": -42.1686,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Piauí",
+      "name": "Campo Maior"
+    },
+    {
+      "id": 443,
+      "city": "Jacareacanga",
+      "lat": -6.2222,
+      "lng": -57.7528,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Pará",
+      "name": "Jacareacanga"
+    },
+    {
+      "id": 444,
+      "city": "Morro Agudo",
+      "lat": -20.7314,
+      "lng": -48.0578,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Morro Agudo"
+    },
+    {
+      "id": 445,
+      "city": "Santa Fé do Sul",
+      "lat": -20.2108,
+      "lng": -50.9258,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Santa Fé do Sul"
+    },
+    {
+      "id": 446,
+      "city": "Araçoiaba da Serra",
+      "lat": -23.5053,
+      "lng": -47.6142,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Araçoiaba da Serra"
+    },
+    {
+      "id": 447,
+      "city": "Barra do Bugres",
+      "lat": -15.0725,
+      "lng": -57.1811,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso",
+      "name": "Barra do Bugres"
+    },
+    {
+      "id": 448,
+      "city": "Barrinha",
+      "lat": -21.1936,
+      "lng": -48.1639,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Barrinha"
+    },
+    {
+      "id": 449,
+      "city": "Tucano",
+      "lat": -10.9582,
+      "lng": -38.7908,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Tucano"
+    },
+    {
+      "id": 450,
+      "city": "Biritiba-Mirim",
+      "lat": -23.5728,
+      "lng": -46.0389,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Biritiba-Mirim"
+    },
+    {
+      "id": 451,
+      "city": "Cândido Mota",
+      "lat": -22.7464,
+      "lng": -50.3869,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Cândido Mota"
+    },
+    {
+      "id": 452,
+      "city": "Juquitiba",
+      "lat": -23.9319,
+      "lng": -47.0686,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Juquitiba"
+    },
+    {
+      "id": 453,
+      "city": "Iguape",
+      "lat": -24.7081,
+      "lng": -47.5553,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Iguape"
+    },
+    {
+      "id": 454,
+      "city": "Presidente Dutra",
+      "lat": -5.29,
+      "lng": -44.49,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Alagoas",
+      "name": "Presidente Dutra"
+    },
+    {
+      "id": 455,
+      "city": "Grajaú",
+      "lat": -5.8194,
+      "lng": -46.1386,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Maranhão",
+      "name": "Grajaú"
+    },
+    {
+      "id": 456,
+      "city": "Soledade",
+      "lat": -28.8178,
+      "lng": -52.51,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Soledade"
+    },
+    {
+      "id": 457,
+      "city": "Casa Branca",
+      "lat": -21.7739,
+      "lng": -47.0858,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Casa Branca"
+    },
+    {
+      "id": 458,
+      "city": "Iturama",
+      "lat": -19.73,
+      "lng": -50.2,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Iturama"
+    },
+    {
+      "id": 459,
+      "city": "Rancharia",
+      "lat": -22.2289,
+      "lng": -50.8928,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Rancharia"
+    },
+    {
+      "id": 460,
+      "city": "Igarapava",
+      "lat": -20.0383,
+      "lng": -47.7469,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Igarapava"
+    },
+    {
+      "id": 461,
+      "city": "Piraju",
+      "lat": -23.1936,
+      "lng": -49.3839,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Piraju"
+    },
+    {
+      "id": 462,
+      "city": "Pontes e Lacerda",
+      "lat": -15.2196,
+      "lng": -59.35,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Mato Grosso",
+      "name": "Pontes e Lacerda"
+    },
+    {
+      "id": 463,
+      "city": "Almenara",
+      "lat": -16.17,
+      "lng": -40.7,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Minas Gerais",
+      "name": "Almenara"
+    },
+    {
+      "id": 464,
+      "city": "Mirandópolis",
+      "lat": -21.1336,
+      "lng": -51.1017,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Mirandópolis"
+    },
+    {
+      "id": 465,
+      "city": "Cajati",
+      "lat": -24.7361,
+      "lng": -48.1228,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Cajati"
+    },
+    {
+      "id": 466,
+      "city": "Acaraú",
+      "lat": -2.8896,
+      "lng": -40.12,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Acaraú"
+    },
+    {
+      "id": 467,
+      "city": "Ubaitaba",
+      "lat": -14.3,
+      "lng": -39.33,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Bahia",
+      "name": "Ubaitaba"
+    },
+    {
+      "id": 468,
+      "city": "Guararema",
+      "lat": -23.415,
+      "lng": -46.035,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Guararema"
+    },
+    {
+      "id": 469,
+      "city": "Icó",
+      "lat": -6.4,
+      "lng": -38.85,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Ceará",
+      "name": "Icó"
+    },
+    {
+      "id": 470,
+      "city": "Serra Negra",
+      "lat": -22.6119,
+      "lng": -46.7008,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Serra Negra"
+    },
+    {
+      "id": 471,
+      "city": "Pilar do Sul",
+      "lat": -23.8128,
+      "lng": -47.7158,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "São Paulo",
+      "name": "Pilar do Sul"
+    },
+    {
+      "id": 472,
+      "city": "Iporá",
+      "lat": -16.45,
+      "lng": -51.13,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Goiás",
+      "name": "Iporá"
+    },
+    {
+      "id": 473,
+      "city": "Jaguarão",
+      "lat": -32.5658,
+      "lng": -53.3758,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Jaguarão"
+    },
+    {
+      "id": 474,
+      "city": "Santa Cruz",
+      "lat": -6.22,
+      "lng": -36.03,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Norte",
+      "name": "Santa Cruz"
+    },
+    {
+      "id": 475,
+      "city": "Santa Vitória do Palmar",
+      "lat": -33.52,
+      "lng": -53.37,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio Grande do Sul",
+      "name": "Santa Vitória do Palmar"
+    },
+    {
+      "id": 476,
+      "city": "Rio de Janeiro",
+      "lat": -22.9083,
+      "lng": -43.1964,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Laranjeiras"
+    },
+    {
+      "id": 477,
+      "city": "Rio de Janeiro",
+      "lat": -22.9083,
+      "lng": -43.1964,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Laranjeiras"
+    },
+    {
+      "id": 478,
+      "city": "Rio de Janeiro",
+      "lat": -22.9083,
+      "lng": -43.1964,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Laranjeiras"
+    },
+    {
+      "id": 479,
+      "city": "Rio de Janeiro",
+      "lat": -22.9083,
+      "lng": -43.1964,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Laranjeiras"
+    },
+    {
+      "id": 480,
+      "city": "Rio de Janeiro",
+      "lat": -22.9083,
+      "lng": -43.1964,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Laranjeiras"
+    },
+    {
+      "id": 481,
+      "city": "Rio de Janeiro",
+      "lat": -22.9083,
+      "lng": -43.1964,
+      "country": "Brazil",
+      "iso2": "BR",
+      "state": "Rio de Janeiro",
+      "name": "Laranjeiras"
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Arlindo Cruz",
+      "Birth_name": " Arlindo Domingos da Cruz Filho",
+      "genres": [1, 8],
+      "location": 2,
+      "img": "https://picsum.photos/200"
+    },
+    {
+      "id": 2,
+      "name": "Beth Carvhlho",
+      "location": 2,
+      "birth_name": "Elizabeth Santos Leal de Carvalho",
+      "genres": [1, 8],
+      "img": "https://picsum.photos/200",
+      "Active_Years": "1960 - 2019"
+    },
+    {
+      "id": 3,
+      "name": "Zeca Pagodinho",
+      "genres": [1, 3, 10],
+      "location": 2,
+      "Birth_name": "Jessé Gomes da Silva Filho",
+      "img": "https://picsum.photos/200",
+      "wikiURL": "https://en.wikipedia.org/wiki/Zeca_Pagodinho",
+      "Active_Years": "1978 - present"
+    },
+    {
+      "id": 4,
+      "name": "Ana Carolina",
+      "location": 4,
+      "img": "https://picsum.photos/200"
+    },
+    {
+      "id": 5,
+      "name": "Cartola",
+      "Instruments": [1, 8],
+      "birth_name": "Angenor de Oliveira",
+      "img": "https://picsum.photos/200",
+      "Active_Years": "1927–1980",
+      "location": 2
+    },
+
+    {
+      "id": 6,
+      "name": "Jorge Aragao",
+      "birth_name": "Jorge Aragão da Cruz",
+      "location": 2,
+      "img": "https://picsum.photos/200"
+    },
+    {
+      "id": 7,
+      "name": "Seu Jorge",
+      "img": "https://picsum.photos/200",
+      "location": 2
+    },
+    {
+      "id": 6,
+      "name": "Caetano Veloso",
+      "birth_name": "Caetano Emanuel Viana Teles Veloso",
+      "location": 8,
+      "img": "https://picsum.photos/200"
+    }
+  ],
+  "genres": [
+    { "id": 1, "name": "Samba" },
+    { "id": 2, "name": "Choro" },
+    { "id": 3, "name": "MPB" },
+    { "id": 4, "name": "Bossa nova" },
+    { "id": 5, "name": "Sertanejo" },
+    { "id": 6, "name": "Maracatu" },
+    { "id": 7, "name": "Forro" },
+    { "id": 8, "name": "Pagode" },
+    { "id": 9, "name": "Axe" },
+    { "id": 10, "name": "Partido alto" }
+  ]
+}
