@@ -1,20 +1,42 @@
-import React from "react";
+import React, { useRef } from "react";
 import { ListGroup } from "react-bootstrap";
 
-const ArtistList = () => {
-  const artists = [
-    { id: "1", name: "Zeca" },
-    { id: "2", name: "Arlindo" },
-  ];
+const ArtistList = (props) => {
+  const inputEl = useRef("");
+  const { artists } = props;
+
+  // const renderArtistList = (artists) => {
+  //   {
+  //     artists.map((a) => <ListGroup.Item key={a.id}>{a.name}</ListGroup.Item>);
+  //   }
+  // };
+
+  const getSearchTerm = () => {
+    props.searchKeyword(inputEl.current.value);
+  };
 
   return (
-    <ListGroup>
-      {/* {artists.map((a) => (
-        <ListGroup.Item key={a.id}>{a.name}</ListGroup.Item>
-      ))} */}
-      <ListGroup.Item>{artists[0].name}</ListGroup.Item>
-      <ListGroup.Item>{artists[1].name}</ListGroup.Item>
-    </ListGroup>
+    <div className="main">
+      <h2>Artists list</h2>
+      <div className="ui search">
+        <div className="ui icon input">
+          <input
+            ref={inputEl}
+            type="text"
+            // placeholder="Search Artisit"
+            className="prompt"
+            value={props.term}
+            onChange={getSearchTerm}
+          />
+          <i className="search icon"></i>
+        </div>
+      </div>
+      <div className="ui celled list">
+        {artists.map((a) => (
+          <ListGroup.Item key={a.id}>{a.name}</ListGroup.Item>
+        ))}
+      </div>
+    </div>
   );
 };
 
