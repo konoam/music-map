@@ -1,14 +1,13 @@
+//hooks
 import { useState, useEffect } from "react";
+//data
 import api from "../api/artists";
-
 //components
 import Map from "../components/map";
 import ArtistsSideBar from "../components/artistsSideBar";
 import Filter from "../components/filter";
 //design
-import "../styles/Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
 
 const HomePage = () => {
   const [artists, setArtists] = useState([]);
@@ -45,22 +44,22 @@ const HomePage = () => {
     }
   };
   return (
-    <Container className="home-container">
-      <Row>
-        <Col md={6}>
+    <div className="container">
+      <div className="row">
+        <div className="col">
           <Map />
           <Filter />
-        </Col>
-        <Col>
+        </div>
+        <div className="col">
           <ArtistsSideBar
             className="sideBar"
             artists={searchTerm < 1 ? artists : searchResults}
             term={searchTerm}
             searchKeyword={searchHandler}
           />
-        </Col>
-      </Row>
-    </Container>
+        </div>
+      </div>
+    </div>
   );
 };
 

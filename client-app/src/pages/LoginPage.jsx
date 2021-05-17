@@ -79,7 +79,7 @@ const LoginPage = () => {
   }, []);
 
   return (
-    <div className="App">
+    <div>
       {/* <Admin handleLogout={handleLogout} />
        */}
 

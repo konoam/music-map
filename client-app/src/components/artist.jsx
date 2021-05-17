@@ -1,5 +1,3 @@
-import "../styles/Artist.css";
-
 const Artist = () => {
   // const [Artist, setArtist] = useState(initialState)
 

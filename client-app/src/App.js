@@ -1,22 +1,32 @@
 import HeaderNavBar from "./components/headerNavbar";
-import HomePage from "./pages/HomePage";
-import { Container } from "react-bootstrap";
+// import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/HomePage";
+
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles/App.css";
 
 const App = () => {
   return (
-    <Container>
-      <header className="header">
+    <div className="container">
+      {/* <header className="header">
         <HeaderNavBar />
-      </header>
-      <main className="page-container">
-        <HomePage />
-      </main>
+      </header> */}
+      <LoginPage />
 
       <footer className="footer"></footer>
-    </Container>
+    </div>
   );
 };
 
 export default App;
+
+// import AdminPage from "./pages/HomePage";
+// <Router>
+//   <main className="page-container">
+//     <Switch>
+//       <Route path="/" component={HomePage} exact={true} />
+//       <Route path="/login" component={LoginPage} />
+//       <Route path="/admin" component={AdminPage} />
+//       <Route path="/artist" component={ArtistPage} exact={true} />
+//     </Switch>
+//   </main>
+// </Router>;

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../styles/Home.css";
 import ReactMapGL from "react-map-gl";
 
 const Map = () => {
@@ -7,7 +6,7 @@ const Map = () => {
     latitude: -22.9032,
     longitude: -43.1735,
     zoom: 10,
-    width: "100vw",
+    width: "70vw",
     height: "100vh",
   });
 
