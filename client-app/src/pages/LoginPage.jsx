@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import fire from "./fire";
-import Login from "./components/login";
+import fire from "../firebase";
+import Login from "../components/login";
 // import Admin from "./components/admin";
-import "../styles/Login.css";
 
 const LoginPage = () => {
   const [user, setUser] = useState("");

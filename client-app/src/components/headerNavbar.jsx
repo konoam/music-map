@@ -1,4 +1,4 @@
-import { Navbar, Button } from "react-bootstrap";
+import { Navbar, Button ,Form} from "react-bootstrap";
 
 const HeaderNavBar = () => {
   const goToLogin = () => {};
@@ -11,10 +11,14 @@ const HeaderNavBar = () => {
         {/* if user then :<Navbar.Text>
           Signed in as: <a href="#login">Maria Rita</a>
         </Navbar.Text> else :*/}
-
-        <Button bsStyle="primary" on Clock={goToLogin}>
+ <Form inline>
+ <Button bsStyle="primary" 
+ href="/#/login"
+ className=" mr-sm-2">
           Admin
         </Button>
+ </Form>
+       
       </Navbar.Collapse>
     </Navbar>
   );

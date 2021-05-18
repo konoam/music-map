@@ -1,7 +1,8 @@
 //hooks
 import { useState, useEffect } from "react";
 //data
-import api from "../api/artists";
+import apiArists from "../api/db";
+import apiGenres from "../api/db";
 //components
 import Map from "../components/map";
 import ArtistsSideBar from "../components/artistsSideBar";
@@ -9,13 +10,19 @@ import Filter from "../components/filter";
 //design
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const HomePage = () => {
+const HomePage = (props) => {
+
+  const {locations} = props
+
+  //states
   const [artists, setArtists] = useState([]);
+  const [genres, setGenres] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
+  //artists functions
   const retrieveArtists = async () => {
-    const response = await api.get("/artists");
+    const response = await apiArists.get("/artists");
     return response.data;
   };
 
@@ -29,6 +36,35 @@ const HomePage = () => {
 
   useEffect(() => {}, [artists]);
 
+
+//genres functions
+
+const retrieveGenres = async () => {
+    const response = await apiGenres.get("/genres");
+    return response.data;
+
+  };
+
+
+  useEffect(() => {
+    const getAllGenres = async () => {
+      const allGenres = await retrieveGenres();
+      if (allGenres) setGenres(allGenres);
+    };
+    getAllGenres();
+  }, []);
+
+  useEffect(() => {}, [genres]);
+
+
+
+
+
+
+
+
+ 
+//search 
   const searchHandler = (searchTerm) => {
     setSearchTerm(searchTerm);
     if (searchTerm !== "") {
@@ -43,20 +79,28 @@ const HomePage = () => {
       setSearchResults(artists);
     }
   };
+
+
+
+  //homepage renderding
   return (
     <div className="container">
+      {/* {console.log(genres)} */}
       <div className="row">
         <div className="col">
-          <Map />
-          <Filter />
+          <Map locations={locations}/>
+          
         </div>
         <div className="col">
+           <Filter genres={genres}/>
+          <Filter genres={genres}/>
           <ArtistsSideBar
             className="sideBar"
             artists={searchTerm < 1 ? artists : searchResults}
             term={searchTerm}
             searchKeyword={searchHandler}
           />
+         
         </div>
       </div>
     </div>

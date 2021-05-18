@@ -28,10 +28,10 @@ const ArtistList = (props) => {
             value={props.term}
             onChange={getSearchTerm}
           />
-          <i className="search icon"></i>
+      
         </div>
       </div>
-      <div className="ui celled list">
+      <div >
         {artists.map((a) => (
           <ListGroup.Item key={a.id}>{a.name}</ListGroup.Item>
         ))}
