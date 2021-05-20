@@ -1,39 +1,33 @@
-import React, { useRef } from "react";
-import { ListGroup } from "react-bootstrap";
+
+import {Link } from 'react-router-dom';
+import { ListGroup, Button } from "react-bootstrap";
 
 const ArtistList = (props) => {
-  const inputEl = useRef("");
-  const { artists } = props;
 
-  // const renderArtistList = (artists) => {
-  //   {
-  //     artists.map((a) => <ListGroup.Item key={a.id}>{a.name}</ListGroup.Item>);
-  //   }
-  // };
+  const {artists ,selectedArtistsCB } = props
 
-  const getSearchTerm = () => {
-    props.searchKeyword(inputEl.current.value);
-  };
+  const selectArtist = ({a})=> {
+
+    selectedArtistsCB({a})
+  }
 
   return (
     <div className="main">
       <h2>Artists list</h2>
-      <div className="ui search">
-        <div className="ui icon input">
-          <input
-            ref={inputEl}
-            type="text"
-            // placeholder="Search Artisit"
-            className="prompt"
-            value={props.term}
-            onChange={getSearchTerm}
-          />
       
-        </div>
-      </div>
       <div >
         {artists.map((a) => (
-          <ListGroup.Item key={a.id}>{a.name}</ListGroup.Item>
+          <ListGroup.Item key={a.id}
+           
+          >
+            <Button onClick={()=>selectArtist({a})} >
+              <Link to={`/artist/:${a.id}`}>
+              {a.name}
+              </Link>
+              
+            </Button>
+            
+            </ListGroup.Item>
         ))}
       </div>
     </div>

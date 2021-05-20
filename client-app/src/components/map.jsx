@@ -3,6 +3,9 @@ import ReactMapGL, {Marker, Popup} from "react-map-gl";
 import maracas from '../styles/maracas.svg'
 import 'mapbox-gl/dist/mapbox-gl.css';
 
+//To Do : filter artist list by clicking on location 
+
+
 const Map = ({locations}) => {
   const [viewPort, setViewPort] = useState({
     latitude: -22.9032,
@@ -12,9 +15,7 @@ const Map = ({locations}) => {
     height: "100vh",
   });
 
-const [selectedLoc,setSelectedLoc] = useState(null);
-
-
+  const [selectedLoc,setSelectedLoc] = useState(null);
 
 
   return (
@@ -34,7 +35,7 @@ const [selectedLoc,setSelectedLoc] = useState(null);
                   e.preventDefault();
                   setSelectedLoc(location);
                 }}>
-                <img src={maracas}/>
+                <img src={maracas} alt="location mar"/>
                 </button>
           </Marker>
         ))}
