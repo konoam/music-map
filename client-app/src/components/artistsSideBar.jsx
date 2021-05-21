@@ -17,9 +17,7 @@ const ArtistList = (props) => {
       
       <div >
         {artists.map((a) => (
-          <ListGroup.Item key={a.id}
-           
-          >
+          <ListGroup.Item key={a.id}>
             <Button onClick={()=>selectArtist({a})} >
               <Link to={`/artist/:${a.id}`}>
               {a.name}
