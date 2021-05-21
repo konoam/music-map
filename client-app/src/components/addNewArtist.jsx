@@ -1,26 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { v4 as uuid } from 'uuid';
 import { Form, Col, Button, Row } from 'react-bootstrap';
 import { axios } from '../axios';
 
 const AddNewArtist = ({ closeAddNewFormCB }) => {
-      const addArtistHandler = async (artist) => {
-            console.log('entered handler');
-            const request = {
-                  id: uuid(),
-                  ...artist,
-            };
+      const [name, setName] = useState('');
+      const [birthName, setbirthName] = useState('');
+      const [genre, setGenre] = useState('');
+      const [city, setCity] = useState('');
 
-            const response = await axios.post('/artist', request);
-            console.log('exit');
+      const addArtistHandler = () => {
+            console.log(name);
       };
 
       return (
             <Form>
+                  <h1>{name}</h1>
                   <Row>
                         <Form.Group as={Col} controlId='formGridName'>
                               <Form.Label>Name</Form.Label>
-                              <Form.Control placeholder='Enter Artits Name' />
+                              <Form.Control
+                                    placeholder='Enter Artits Name'
+                                    onChange={(e) => setName(e.target.value)}
+                              />
                         </Form.Group>
 
                         <Form.Group as={Col} controlId='formGridType'>
@@ -64,7 +66,7 @@ const AddNewArtist = ({ closeAddNewFormCB }) => {
                   <Button
                         variant='primary'
                         type='submit'
-                        onClick={addArtistHandler}
+                        onClick={() => addArtistHandler}
                   >
                         Submit
                   </Button>
