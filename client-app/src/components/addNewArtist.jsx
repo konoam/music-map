@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { v4 as uuid } from 'uuid';
-import { Form, Col, Button, Row } from 'react-bootstrap';
 import { axios } from '../axios';
 
 // To Do :
@@ -43,78 +42,68 @@ const AddNewArtist = ({ closeAddNewFormCB }) => {
       };
 
       return (
-            <Form>
-                  <Row>
-                        <Form.Group as={Col} controlId='formGridName'>
-                              <Form.Label>Name</Form.Label>
-                              <Form.Control
-                                    placeholder='Enter Artits Name'
-                                    name='name'
-                                    onChange={handleChange}
-                              />
-                        </Form.Group>
-
-                        <Form.Group as={Col} controlId='formGridType'>
-                              <Form.Label>Type</Form.Label>
-                              <Form.Control
-                                    as='select'
-                                    defaultValue='Singer'
-                                    name='type'
-                                    onChange={handleChange}
-                              >
-                                    <option>Singer</option>
-                                    <option>Compositors</option>
-                                    <option>Band</option>
-                              </Form.Control>
-                        </Form.Group>
-                  </Row>
-
-                  <Form.Group controlId='formGridBirthName'>
-                        <Form.Label>Birth Name</Form.Label>
-                        <Form.Control
-                              name='birth_name'
+            <form>
+                  <fieldset id='formGridName'>
+                        <label>Name</label>
+                        <input
+                              placeholder='Enter Artits Name'
+                              name='name'
                               onChange={handleChange}
                         />
-                  </Form.Group>
+                  </fieldset>
 
-                  <Form.Group as={Col} controlId='formGridGenre'>
-                        <Form.Label>Genre</Form.Label>
-                        <Form.Control name='genre' onChange={handleChange} />
-                  </Form.Group>
+                  <fieldset id='formGridType'>
+                        <label>Type</label>
+                        <input
+                              as='select'
+                              defaultValue='Singer'
+                              name='type'
+                              onChange={handleChange}
+                        >
+                              <option>Singer</option>
+                              <option>Compositors</option>
+                              <option>Band</option>
+                        </input>
+                  </fieldset>
 
-                  <Row>
-                        <Form.Group as={Col} controlId='formGridCity'>
-                              <Form.Label>City</Form.Label>
-                              <Form.Control />
-                        </Form.Group>
+                  <fieldset id='formGridBirthName'>
+                        <label>Birth Name</label>
+                        <input name='birth_name' onChange={handleChange} />
+                  </fieldset>
 
-                        <Form.Group as={Col} controlId='formGridState'>
-                              <Form.Label>State</Form.Label>
-                              <Form.Control
-                                    as='select'
-                                    defaultValue='Choose...'
-                              >
-                                    <option>Choose...</option>
-                                    <option>...</option>
-                              </Form.Control>
-                        </Form.Group>
-                  </Row>
+                  <fieldset id='formGridGenre'>
+                        <label>Genre</label>
+                        <input name='genre' onChange={handleChange} />
+                  </fieldset>
 
-                  <Button
+                  <fieldset id='formGridCity'>
+                        <label>City</label>
+                        <input />
+                  </fieldset>
+
+                  <fieldset id='formGridState'>
+                        <label>State</label>
+                        <input as='select' defaultValue='Choose...'>
+                              <option>Choose...</option>
+                              <option>...</option>
+                        </input>
+                  </fieldset>
+
+                  <button
                         variant='primary'
                         type='submit'
                         onClick={handleSubmit}
                   >
                         Submit
-                  </Button>
-                  <Button
+                  </button>
+                  <button
                         variant='worning'
                         type='close'
                         onClick={() => closeAddNewFormCB}
                   >
                         Cancel
-                  </Button>
-            </Form>
+                  </button>
+            </form>
       );
 };
 

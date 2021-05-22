@@ -1,35 +1,33 @@
-
-import {Link } from 'react-router-dom';
-import { ListGroup, Button } from "react-bootstrap";
+import { Link } from 'react-router-dom';
+//To Do : 1. display default top 5
 
 const ArtistList = (props) => {
+      const { artists, selectedArtistsCB } = props;
 
-  const {artists ,selectedArtistsCB } = props
+      const selectArtist = ({ a }) => {
+            selectedArtistsCB({ a });
+      };
 
-  const selectArtist = ({a})=> {
+      return (
+            <div className='main'>
+                  <h2 className='brandFont'>Artists list</h2>
 
-    selectedArtistsCB({a})
-  }
-
-  return (
-    <div className="main">
-      <h2>Artists list</h2>
-      
-      <div >
-        {artists.map((a) => (
-          <ListGroup.Item key={a.id}>
-            <Button onClick={()=>selectArtist({a})} >
-              <Link to={`/artist/:${a.id}`}>
-              {a.name}
-              </Link>
-              
-            </Button>
-            
-            </ListGroup.Item>
-        ))}
-      </div>
-    </div>
-  );
+                  <nav>
+                        {artists.map((a) => (
+                              <ul key={a.id}>
+                                    <button onClick={() => selectArtist({ a })}>
+                                          <Link
+                                                className='link'
+                                                to={`/artist/:${a.id}`}
+                                          >
+                                                {a.name}
+                                          </Link>
+                                    </button>
+                              </ul>
+                        ))}
+                  </nav>
+            </div>
+      );
 };
 
 export default ArtistList;

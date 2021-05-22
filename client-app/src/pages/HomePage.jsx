@@ -1,30 +1,50 @@
 //child components
+import HeaderNavbar from '../components/headerNavbar';
 import Map from '../components/map';
 import ArtistsSideBar from '../components/artistsSideBar';
-
-//design
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState, useEffect } from 'react';
 
 const HomePage = (props) => {
-      const { artists, locations, selectedArtistsCB } = props;
-
+      const { artists, locations, selectedArtistsCB, getInput } = props;
+      const [input, setInput] = useState();
       const selectArtist = ({ a }) => {
             console.log('select artists from homepage');
             selectedArtistsCB({ a });
       };
+      const headerText = 'Admin';
+
+      useEffect(() => {
+            getInput(input);
+      }, [input]);
 
       //homepage renderding
       return (
-            <div className='container'>
-                  {/* {console.log(genres)} */}
-                  <div className='row'>
-                        <div className='col'>
+            <div>
+                  <header>
+                        <HeaderNavbar
+                              handleText={headerText}
+                              goToLink={'/#/login'}
+                        />
+
+                        <div className='searchrow'>
+                              <label className='input'> Search Artist</label>
+                              <input
+                                    type='text'
+                                    onChange={(e) => setInput(e.target.value)}
+                              />
+                        </div>
+                  </header>
+
+                  <div className='container'>
+                        {/* {console.log(genres)} */}
+
+                        <div>
                               <Map
                                     locations={locations}
                                     selectedArtistsCB={selectArtist}
                               />
                         </div>
-                        <div className='col'>
+                        <div>
                               <ArtistsSideBar
                                     artists={artists}
                                     selectedArtistsCB={selectArtist}

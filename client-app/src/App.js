@@ -1,19 +1,15 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { axios } from './axios';
-import { HashRouter, Route, useHistory } from 'react-router-dom';
-
-import HeaderNavbar from './components/headerNavbar';
+import { HashRouter, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import ArtistPage from './pages/ArtistPage';
-//To do : move the input to homepage or header or what ?
 
 const App = () => {
       const [artistsFull, setArtistsFull] = useState([]);
       const [locationsFull, setLocationsFull] = useState([]);
 
       const [searchTerm, setSearchTerm] = useState('');
-      const inputEl = useRef('');
 
       const [artistsResults, setArtistsResults] = useState([]);
       const [locationsResults, setLocationsResults] = useState([]);
@@ -53,8 +49,6 @@ const App = () => {
 
       //return only artist with names that includes the input
       const searchHandler = () => {
-            setSearchTerm(inputEl.current.value);
-
             if (searchTerm !== '') {
                   const newArtistlist = artistsFull.filter((a) => {
                         return Object.values(a)
@@ -77,30 +71,24 @@ const App = () => {
             console.log('link to this artist page', selectedArtist);
       }, [selectedArtist]);
 
-      const history = useHistory();
-      const goLoginPage = () => history.push('/login');
+      // const history = useHistory();
+      // const goLoginPage = () => history.push('/login');
+
+      const getInput = (inputTerm) => {
+            setSearchTerm(inputTerm);
+            searchHandler();
+      };
 
       return (
-            <div>
-                  <header className='header'>
-                        <HeaderNavbar
-                              handleText={headerText}
-                              handleAction={goLoginPage}
-                        />
-                        <input
-                              ref={inputEl}
-                              type='text'
-                              className='prompt'
-                              onChange={searchHandler}
-                        />
-                  </header>
+            <div className='app'>
                   <HashRouter>
-                        <main className='page-container'>
+                        <main className='container'>
                               <Route exact path='/'>
                                     <HomePage
                                           artists={artistsResults}
                                           locations={locationsResults}
                                           selectedArtistsCB={setSelectedArtist}
+                                          searchHandler={getInput}
                                     />
                               </Route>
                               <Route exact path='/login'>
@@ -118,17 +106,3 @@ const App = () => {
 };
 
 export default App;
-
-//  <>
-//         <HeaderNavbar/>
-//         <div>
-//            <input
-//             ref={inputEl}
-//             type="text"
-//             className="prompt"
-//             onChange={searchHandler} />
-
-//             <HomePage artists={artistsResults} locations={locationsResults} selectedArtistsCB={setSelectedArtist}/>
-
-//         </div>
-//         </>
