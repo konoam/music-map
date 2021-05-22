@@ -57,6 +57,7 @@ const LoginPage = () => {
       };
 
       const handleLogout = () => {
+            console.log('enter handle logout in loginpage');
             clearInputs();
             fire.auth().signOut();
       };
@@ -76,16 +77,14 @@ const LoginPage = () => {
             authListener();
       }, []);
 
-      const headerButtonText = 'Logout';
       return (
             <div>
-                  <HeaderNavBar
-                        handleText={headerButtonText}
-                        handleAction={handleLogout}
-                  />
+                  <header>
+                        <HeaderNavBar handleText={''} />
+                  </header>
                   <div>
                         {user ? (
-                              <AdminPage handleLogout={handleLogout} />
+                              <AdminPage handleAction={handleLogout} />
                         ) : (
                               <Login
                                     email={email}

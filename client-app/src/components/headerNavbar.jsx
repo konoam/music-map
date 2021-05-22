@@ -1,7 +1,30 @@
+import { Link } from 'react-router-dom';
 const HeaderNavBar = (props) => {
-      const { handleText, goToLink, handleAction } = props;
+      const { handleText, handleAction } = props;
 
-      console.log(handleText);
+      const selectButton = () => {
+            switch (handleText) {
+                  case 'Logout':
+                        return (
+                              <button
+                                    className=' mr-sm-2'
+                                    onClick={handleAction}
+                              >
+                                    {handleText}
+                              </button>
+                        );
+                  case 'Admin':
+                        return (
+                              <button>
+                                    <Link to='/login' className=' mr-sm-2'>
+                                          {handleText}
+                                    </Link>
+                              </button>
+                        );
+                  default:
+                        return null;
+            }
+      };
 
       return (
             <nav className='container'>
@@ -9,16 +32,7 @@ const HeaderNavBar = (props) => {
                         <a href='/'>Music-Map</a>
                   </div>
 
-                  <div>
-                        <button
-                              href={goToLink}
-                              bsStyle='primary'
-                              className=' mr-sm-2'
-                              onClick={handleAction}
-                        >
-                              {handleText}
-                        </button>
-                  </div>
+                  <div>{selectButton()}</div>
             </nav>
       );
 };

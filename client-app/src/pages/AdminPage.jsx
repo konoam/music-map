@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import AddNewArtist from '../components/addNewArtist';
-import { axios } from '../axios';
+import HeaderNavBar from '../components/headerNavbar';
+// import { axios } from '../axios';
 
-const AdminPage = ({ handleLogout }) => {
+const AdminPage = ({ handleAction }) => {
       const [addNew, setAddNew] = useState(false);
 
       const closeAddNewForm = () => {
@@ -10,8 +11,15 @@ const AdminPage = ({ handleLogout }) => {
       };
 
       return (
-            <div className='container'>
-                  <h1>Admin Page</h1>
+            <div className='ContainerAdmin'>
+                  <header>
+                        <HeaderNavBar
+                              handleText={'Logout'}
+                              handleAction={handleAction}
+                        />
+
+                        <h1>Admin Page</h1>
+                  </header>
 
                   <div>
                         {addNew ? (

@@ -42,70 +42,100 @@ const AddNewArtist = ({ closeAddNewFormCB }) => {
       };
 
       return (
-            <form>
-                  <fieldset id='formGridName'>
-                        <label>Name</label>
+            <div>
+                  <h1>new artist</h1>
+                  <form>
+                        <label>name</label>
                         <input
-                              placeholder='Enter Artits Name'
+                              type='text'
                               name='name'
                               onChange={handleChange}
-                        />
-                  </fieldset>
+                              placeholder='Enter Artits Name'
+                        ></input>
 
-                  <fieldset id='formGridType'>
-                        <label>Type</label>
-                        <input
-                              as='select'
-                              defaultValue='Singer'
-                              name='type'
-                              onChange={handleChange}
+                        <button
+                              variant='primary'
+                              type='submit'
+                              onClick={handleSubmit}
                         >
-                              <option>Singer</option>
-                              <option>Compositors</option>
-                              <option>Band</option>
-                        </input>
-                  </fieldset>
-
-                  <fieldset id='formGridBirthName'>
-                        <label>Birth Name</label>
-                        <input name='birth_name' onChange={handleChange} />
-                  </fieldset>
-
-                  <fieldset id='formGridGenre'>
-                        <label>Genre</label>
-                        <input name='genre' onChange={handleChange} />
-                  </fieldset>
-
-                  <fieldset id='formGridCity'>
-                        <label>City</label>
-                        <input />
-                  </fieldset>
-
-                  <fieldset id='formGridState'>
-                        <label>State</label>
-                        <input as='select' defaultValue='Choose...'>
-                              <option>Choose...</option>
-                              <option>...</option>
-                        </input>
-                  </fieldset>
-
-                  <button
-                        variant='primary'
-                        type='submit'
-                        onClick={handleSubmit}
-                  >
-                        Submit
-                  </button>
-                  <button
-                        variant='worning'
-                        type='close'
-                        onClick={() => closeAddNewFormCB}
-                  >
-                        Cancel
-                  </button>
-            </form>
+                              Submit
+                        </button>
+                        <button
+                              variant='worning'
+                              type='close'
+                              onClick={() => closeAddNewFormCB}
+                        >
+                              Cancel
+                        </button>
+                  </form>
+            </div>
       );
 };
 
 export default AddNewArtist;
 //
+{
+      /* <form>
+<h1>fix form </h1>
+<fieldset id='formGridName'>
+      <label>Name</label>
+      <input
+            placeholder='Enter Artits Name'
+            name='name'
+            onChange={handleChange}
+      />
+</fieldset>
+
+<fieldset id='formGridType'>
+      <label>Type</label>
+      <input
+            as='select'
+            defaultValue='Singer'
+            name='type'
+            onChange={handleChange}
+      >
+            <option>Singer</option>
+            <option>Compositors</option>
+            <option>Band</option>
+      </input>
+</fieldset>
+
+<fieldset id='formGridBirthName'>
+      <label>Birth Name</label>
+      <input name='birth_name' onChange={handleChange} />
+</fieldset>
+
+<fieldset id='formGridGenre'>
+      <label>Genre</label>
+      <input name='genre' onChange={handleChange} />
+</fieldset>
+
+<fieldset id='formGridCity'>
+      <label>City</label>
+      <input />
+</fieldset>
+
+<fieldset id='formGridState'>
+      <label>State</label>
+      <input as='select' defaultValue='Choose...'>
+            <option>Choose...</option>
+            <option>...</option>
+      </input>
+</fieldset>
+
+<button
+      variant='primary'
+      type='submit'
+      onClick={handleSubmit}
+>
+      Submit
+</button>
+<button
+      variant='worning'
+      type='close'
+      onClick={() => closeAddNewFormCB}
+>
+      Cancel
+</button>
+</form> */
+}

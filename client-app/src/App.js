@@ -5,6 +5,8 @@ import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import ArtistPage from './pages/ArtistPage';
 
+// searcfilter refresh
+
 const App = () => {
       const [artistsFull, setArtistsFull] = useState([]);
       const [locationsFull, setLocationsFull] = useState([]);
@@ -50,6 +52,7 @@ const App = () => {
       //return only artist with names that includes the input
       const searchHandler = () => {
             if (searchTerm !== '') {
+                  console.log('i', searchTerm);
                   const newArtistlist = artistsFull.filter((a) => {
                         return Object.values(a)
                               .join(' ')
@@ -61,18 +64,11 @@ const App = () => {
                   getLocationsList();
             } else {
                   setArtistsResults(artistsFull);
+                  console.log('else');
                   getLocationsList();
             }
       };
       const headerText = 'Admin';
-      // go to artist page once artist selected
-
-      useEffect(() => {
-            console.log('link to this artist page', selectedArtist);
-      }, [selectedArtist]);
-
-      // const history = useHistory();
-      // const goLoginPage = () => history.push('/login');
 
       const getInput = (inputTerm) => {
             setSearchTerm(inputTerm);
@@ -88,7 +84,7 @@ const App = () => {
                                           artists={artistsResults}
                                           locations={locationsResults}
                                           selectedArtistsCB={setSelectedArtist}
-                                          searchHandler={getInput}
+                                          getInput={getInput}
                                     />
                               </Route>
                               <Route exact path='/login'>

@@ -2,7 +2,7 @@
 import HeaderNavbar from '../components/headerNavbar';
 import Map from '../components/map';
 import ArtistsSideBar from '../components/artistsSideBar';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const HomePage = (props) => {
       const { artists, locations, selectedArtistsCB, getInput } = props;
@@ -12,7 +12,7 @@ const HomePage = (props) => {
             selectedArtistsCB({ a });
       };
       const headerText = 'Admin';
-
+      const inputEl = useRef('');
       useEffect(() => {
             getInput(input);
       }, [input]);
@@ -21,16 +21,16 @@ const HomePage = (props) => {
       return (
             <div>
                   <header>
-                        <HeaderNavbar
-                              handleText={headerText}
-                              goToLink={'/#/login'}
-                        />
+                        <HeaderNavbar handleText={headerText} />
 
                         <div className='searchrow'>
                               <label className='input'> Search Artist</label>
                               <input
+                                    ref={inputEl}
                                     type='text'
-                                    onChange={(e) => setInput(e.target.value)}
+                                    onChange={() =>
+                                          setInput(inputEl.current.value)
+                                    }
                               />
                         </div>
                   </header>
