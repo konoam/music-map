@@ -3,31 +3,65 @@ import { v4 as uuid } from 'uuid';
 import { Form, Col, Button, Row } from 'react-bootstrap';
 import { axios } from '../axios';
 
-const AddNewArtist = ({ closeAddNewFormCB }) => {
-      const [name, setName] = useState('');
-      const [birthName, setbirthName] = useState('');
-      const [genre, setGenre] = useState('');
-      const [city, setCity] = useState('');
+// To Do :
+//       1. add form validation
+//       2. populate genres/location  select field list from db.js
+//       3. css
+//       4. add sucsses mesages
+//
 
-      const addArtistHandler = () => {
-            console.log(name);
+const AddNewArtist = ({ closeAddNewFormCB }) => {
+      const [form, setForm] = useState({
+            name: '',
+            type: '',
+            birth_name: '',
+            location: '',
+      });
+
+      const postArtist = async (request) => {
+            const response = await axios.post('/artists', request);
+            console.log('exit');
+      };
+
+      const handleChange = (e) => {
+            setForm({
+                  ...form,
+                  [e.target.name]: e.target.value,
+            });
+      };
+
+      const handleSubmit = (e) => {
+            e.preventDefault();
+            const request = {
+                  id: uuid(),
+                  ...form,
+            };
+            postArtist(request);
+
+            setForm({ name: '', type: '', birth_name: '', location: '' });
+            closeAddNewFormCB();
       };
 
       return (
             <Form>
-                  <h1>{name}</h1>
                   <Row>
                         <Form.Group as={Col} controlId='formGridName'>
                               <Form.Label>Name</Form.Label>
                               <Form.Control
                                     placeholder='Enter Artits Name'
-                                    onChange={(e) => setName(e.target.value)}
+                                    name='name'
+                                    onChange={handleChange}
                               />
                         </Form.Group>
 
                         <Form.Group as={Col} controlId='formGridType'>
                               <Form.Label>Type</Form.Label>
-                              <Form.Control as='select' defaultValue='Singer'>
+                              <Form.Control
+                                    as='select'
+                                    defaultValue='Singer'
+                                    name='type'
+                                    onChange={handleChange}
+                              >
                                     <option>Singer</option>
                                     <option>Compositors</option>
                                     <option>Band</option>
@@ -37,12 +71,15 @@ const AddNewArtist = ({ closeAddNewFormCB }) => {
 
                   <Form.Group controlId='formGridBirthName'>
                         <Form.Label>Birth Name</Form.Label>
-                        <Form.Control />
+                        <Form.Control
+                              name='birth_name'
+                              onChange={handleChange}
+                        />
                   </Form.Group>
 
                   <Form.Group as={Col} controlId='formGridGenre'>
                         <Form.Label>Genre</Form.Label>
-                        <Form.Control />
+                        <Form.Control name='genre' onChange={handleChange} />
                   </Form.Group>
 
                   <Row>
@@ -66,7 +103,7 @@ const AddNewArtist = ({ closeAddNewFormCB }) => {
                   <Button
                         variant='primary'
                         type='submit'
-                        onClick={() => addArtistHandler}
+                        onClick={handleSubmit}
                   >
                         Submit
                   </Button>
@@ -82,3 +119,4 @@ const AddNewArtist = ({ closeAddNewFormCB }) => {
 };
 
 export default AddNewArtist;
+//
