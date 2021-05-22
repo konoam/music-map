@@ -5,20 +5,16 @@ import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import ArtistPage from './pages/ArtistPage';
 
-// searcfilter refresh
-
 const App = () => {
+      //    *** APP STATES
       const [artistsFull, setArtistsFull] = useState([]);
       const [locationsFull, setLocationsFull] = useState([]);
-
-      const [searchTerm, setSearchTerm] = useState('');
-
+      const [searchTerm, setSearchTerm] = useState([]);
       const [artistsResults, setArtistsResults] = useState([]);
       const [locationsResults, setLocationsResults] = useState([]);
-
       const [selectedArtist, setSelectedArtist] = useState(artistsFull[0]);
 
-      //**** GET DATA  */
+      //    ***  GET & SET FULL DATA  ***
       const getAllArtists = async () => {
             const response = await axios
                   .get('/artists')
@@ -40,16 +36,23 @@ const App = () => {
             getAllLocations();
       }, []);
 
-      const getLocationsList = () => {
-            const locationsIdList = artistsResults.map((a) => a.location);
-            const locationsToMark = locationsFull.filter((m) =>
-                  locationsIdList.includes(m.id)
-            );
-            setLocationsResults(locationsToMark);
-            console.log(locationsResults);
+      //    *** HANDLE SEARCH RESULTS ***
+
+      //1. get input from HomePage and send to searchHandler
+      const getInput = (inputTerm) => {
+            console.log('type of input ', typeof inputTerm);
+
+            setSearchTerm(inputTerm);
+            if (typeof searchTerm !== undefined) {
+                  console.log('type of input inside if', typeof searchTerm);
+                  searchHandler();
+            } else {
+                  setSearchTerm('car');
+                  searchHandler();
+            }
       };
 
-      //return only artist with names that includes the input
+      //2. return only artist with names that includes the input
       const searchHandler = () => {
             if (searchTerm !== '') {
                   console.log('i', searchTerm);
@@ -68,11 +71,15 @@ const App = () => {
                   getLocationsList();
             }
       };
-      const headerText = 'Admin';
 
-      const getInput = (inputTerm) => {
-            setSearchTerm(inputTerm);
-            searchHandler();
+      //3. filter location list accordind to artist filtered list
+      const getLocationsList = () => {
+            const locationsIdList = artistsResults.map((a) => a.location);
+            const locationsToMark = locationsFull.filter((m) =>
+                  locationsIdList.includes(m.id)
+            );
+            setLocationsResults(locationsToMark);
+            console.log(locationsResults);
       };
 
       return (

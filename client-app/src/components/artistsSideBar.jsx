@@ -18,7 +18,7 @@ const ArtistList = (props) => {
                                     <button onClick={() => selectArtist({ a })}>
                                           <Link
                                                 className='link'
-                                                to={`/artist/:${a.id}`}
+                                                to={`/artist/${a.id}`}
                                           >
                                                 {a.name}
                                           </Link>

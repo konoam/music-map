@@ -79,25 +79,27 @@ const LoginPage = () => {
 
       return (
             <div>
-                  <header>
-                        <HeaderNavBar handleText={''} />
-                  </header>
                   <div>
                         {user ? (
                               <AdminPage handleAction={handleLogout} />
                         ) : (
-                              <Login
-                                    email={email}
-                                    setEmail={setEmail}
-                                    password={password}
-                                    setPassword={setPassword}
-                                    handleLogin={handleLogin}
-                                    handleSignup={handleSignup}
-                                    hasAccount={hasAccount}
-                                    setHasAccount={setHasAccount}
-                                    emailError={emailError}
-                                    passwordError={passwordError}
-                              />
+                              <>
+                                    <header>
+                                          <HeaderNavBar handleText={''} />
+                                    </header>
+                                    <Login
+                                          email={email}
+                                          setEmail={setEmail}
+                                          password={password}
+                                          setPassword={setPassword}
+                                          handleLogin={handleLogin}
+                                          handleSignup={handleSignup}
+                                          hasAccount={hasAccount}
+                                          setHasAccount={setHasAccount}
+                                          emailError={emailError}
+                                          passwordError={passwordError}
+                                    />
+                              </>
                         )}
                   </div>
             </div>

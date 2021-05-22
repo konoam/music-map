@@ -6,17 +6,22 @@ const HeaderNavBar = (props) => {
             switch (handleText) {
                   case 'Logout':
                         return (
-                              <button
-                                    className=' mr-sm-2'
-                                    onClick={handleAction}
-                              >
+                              <button className='link' onClick={handleAction}>
                                     {handleText}
                               </button>
                         );
                   case 'Admin':
                         return (
                               <button>
-                                    <Link to='/login' className=' mr-sm-2'>
+                                    <Link to='/login' className='link'>
+                                          {handleText}
+                                    </Link>
+                              </button>
+                        );
+                  case 'Back':
+                        return (
+                              <button>
+                                    <Link to='/' className='link'>
                                           {handleText}
                                     </Link>
                               </button>
