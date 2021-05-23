@@ -11,6 +11,8 @@ body {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+      height: 100vh;
+      background-color: bisque;
 }
 
 .brandFont {
@@ -29,17 +31,16 @@ body {
 }
 .container {
       display: flex;
-      max-width: 100vw;
+      min-width: 80vw;
       margin: 0 auto;
       padding: 0.25em;
-      background-color: blanchedalmond;
+
       justify-content: space-between;
 }
 
 .app {
       display: flex;
       flex-direction: column;
-      background-color: bisque;
 }
 
 .link {

@@ -19,40 +19,47 @@ const App = () => {
             const response = await axios
                   .get('/artists')
                   .catch((err) => console.log('Error: ', err));
-            if (response && response.data) {
-                  setArtistsFull(response.data);
-                  setArtistsResults(response.data);
-            }
+            if (response && response.data) setArtistsFull(response.data);
       };
       const getAllLocations = async () => {
             const response = await axios
                   .get('/locations')
                   .catch((err) => console.log('Error: ', err));
-            if (response && response.data) setLocationsFull(response.data);
+            if (response && response.data) {
+                  setLocationsFull(response.data);
+                  setLocationsResults(response.data);
+            }
       };
 
       useEffect(() => {
             getAllArtists();
             getAllLocations();
+            setArtistsResults(artistsFull.slice(0, 7));
+            setLocationsResults(locationsResults.slice(0, 20));
       }, []);
+
+      useEffect(() => {
+            setArtistsResults(artistsFull.slice(0, 7));
+      }, [artistsFull]);
+
+      useEffect(() => {
+            setLocationsResults(locationsFull.slice(0, 20));
+      }, [locationsFull]);
 
       //    *** HANDLE SEARCH RESULTS ***
 
       //1. get input from HomePage and send to searchHandler
       const getInput = (inputTerm) => {
-            // console.log("in App ", typeof inputTerm);
-            // if (inputTerm.length > 2) {
-            //       setSearchTerm('car');
-            //       searchHandler();
-            // } else {
-            //       setSearchTerm(' ');
-            // }
+            return setSearchTerm(inputTerm);
       };
+      //2. update searchTerm on each inputTerm change
+      useEffect(() => {
+            searchHandler();
+      }, [searchTerm]);
 
-      //2. return only artist with names that includes the input
+      //3. return only artist with names that includes the input
       const searchHandler = () => {
             if (searchTerm !== '') {
-                  console.log('i', searchTerm);
                   const newArtistlist = artistsFull.filter((a) => {
                         return Object.values(a)
                               .join(' ')
@@ -69,7 +76,7 @@ const App = () => {
             }
       };
 
-      //3. filter location list accordind to artist filtered list
+      //4. filter location list accordind to artist filtered list
       const getLocationsList = () => {
             const locationsIdList = artistsResults.map((a) => a.location);
             const locationsToMark = locationsFull.filter((m) =>

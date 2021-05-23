@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/music-map/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/music-map/static/js/main.83786aaa.chunk.js",
-    "main.js.map": "/music-map/static/js/main.83786aaa.chunk.js.map",
-    "runtime-main.js": "/music-map/static/js/runtime-main.e3d2326d.js",
-    "runtime-main.js.map": "/music-map/static/js/runtime-main.e3d2326d.js.map",
-    "static/js/2.4a733af9.chunk.js": "/music-map/static/js/2.4a733af9.chunk.js",
-    "static/js/2.4a733af9.chunk.js.map": "/music-map/static/js/2.4a733af9.chunk.js.map",
-    "static/js/3.fd0dca8a.chunk.js": "/music-map/static/js/3.fd0dca8a.chunk.js",
-    "static/js/3.fd0dca8a.chunk.js.map": "/music-map/static/js/3.fd0dca8a.chunk.js.map",
+    "main.css": "/music-map/static/css/main.3f5df04e.chunk.css",
+    "main.js": "/music-map/static/js/main.3c98cd46.chunk.js",
+    "main.js.map": "/music-map/static/js/main.3c98cd46.chunk.js.map",
+    "runtime-main.js": "/music-map/static/js/runtime-main.6f096504.js",
+    "runtime-main.js.map": "/music-map/static/js/runtime-main.6f096504.js.map",
+    "static/css/2.19072978.chunk.css": "/music-map/static/css/2.19072978.chunk.css",
+    "static/js/2.e462defd.chunk.js": "/music-map/static/js/2.e462defd.chunk.js",
+    "static/js/2.e462defd.chunk.js.map": "/music-map/static/js/2.e462defd.chunk.js.map",
     "index.html": "/music-map/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/music-map/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.4a733af9.chunk.js.LICENSE.txt": "/music-map/static/js/2.4a733af9.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/music-map/static/media/logo.6ce24c58.svg"
+    "static/css/2.19072978.chunk.css.map": "/music-map/static/css/2.19072978.chunk.css.map",
+    "static/css/main.3f5df04e.chunk.css.map": "/music-map/static/css/main.3f5df04e.chunk.css.map",
+    "static/js/2.e462defd.chunk.js.LICENSE.txt": "/music-map/static/js/2.e462defd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/music-map/static/media/Amadeus-webfont.e02f78a8.woff",
+    "static/media/maracas.8efc158d.svg": "/music-map/static/media/maracas.8efc158d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e3d2326d.js",
-    "static/js/2.4a733af9.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.83786aaa.chunk.js"
+    "static/js/runtime-main.6f096504.js",
+    "static/css/2.19072978.chunk.css",
+    "static/js/2.e462defd.chunk.js",
+    "static/css/main.3f5df04e.chunk.css",
+    "static/js/main.3c98cd46.chunk.js"
   ]
 }

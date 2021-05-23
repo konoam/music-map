@@ -85,7 +85,7 @@ const LoginPage = () => {
                         ) : (
                               <>
                                     <header>
-                                          <HeaderNavBar handleText={''} />
+                                          <HeaderNavBar handleText={'Back'} />
                                     </header>
                                     <Login
                                           email={email}

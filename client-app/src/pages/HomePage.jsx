@@ -2,7 +2,7 @@
 import HeaderNavbar from '../components/headerNavbar';
 import Map from '../components/map';
 import ArtistsSideBar from '../components/artistsSideBar';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const HomePage = (props) => {
       const { artists, locations, selectedArtistsCB, getInput } = props;
@@ -13,12 +13,10 @@ const HomePage = (props) => {
       };
       const headerText = 'Admin';
 
-      const sendInput = (val) => {
-            console.log('before setState', val, typeof val);
-            val ? setInput(val) : setInput('');
-            console.log('after set state', input, typeof input);
+      useEffect(() => {
+            console.log(typeof input);
             getInput(input);
-      };
+      }, [input]);
 
       //homepage renderding
       return (
@@ -30,7 +28,7 @@ const HomePage = (props) => {
                               <label className='input'> Search Artist</label>
                               <input
                                     type='text'
-                                    onChange={(e) => sendInput(e.target.value)}
+                                    onChange={(e) => setInput(e.target.value)}
                               />
                         </div>
                   </header>

@@ -46,6 +46,7 @@ const AddNewArtist = ({ closeAddNewFormCB }) => {
                   <h1 className='brandFont'>new artist</h1>
                   <form className='formContainer'>
                         <fieldset className='row'>
+                              <label>Name</label>
                               <input
                                     type='text'
                                     name='name'
