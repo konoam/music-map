@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import LoginPage from './pages/LoginPage';
+import AddingForm from './toDelete/AddingForm';
 import './styles/index.css';
 
 ReactDOM.render(

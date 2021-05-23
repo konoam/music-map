@@ -40,16 +40,13 @@ const App = () => {
 
       //1. get input from HomePage and send to searchHandler
       const getInput = (inputTerm) => {
-            console.log('type of input ', typeof inputTerm);
-
-            setSearchTerm(inputTerm);
-            if (typeof searchTerm !== undefined) {
-                  console.log('type of input inside if', typeof searchTerm);
-                  searchHandler();
-            } else {
-                  setSearchTerm('car');
-                  searchHandler();
-            }
+            // console.log("in App ", typeof inputTerm);
+            // if (inputTerm.length > 2) {
+            //       setSearchTerm('car');
+            //       searchHandler();
+            // } else {
+            //       setSearchTerm(' ');
+            // }
       };
 
       //2. return only artist with names that includes the input

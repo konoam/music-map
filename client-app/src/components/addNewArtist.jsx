@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuid } from 'uuid';
 import { axios } from '../axios';
-
+import '../styles/adminForms.css';
 // To Do :
 //       1. add form validation
 //       2. populate genres/location  select field list from db.js
@@ -43,16 +43,34 @@ const AddNewArtist = ({ closeAddNewFormCB }) => {
 
       return (
             <div>
-                  <h1>new artist</h1>
-                  <form>
-                        <label>name</label>
-                        <input
-                              type='text'
-                              name='name'
-                              onChange={handleChange}
-                              placeholder='Enter Artits Name'
-                        ></input>
-
+                  <h1 className='brandFont'>new artist</h1>
+                  <form className='formContainer'>
+                        <fieldset className='row'>
+                              <input
+                                    type='text'
+                                    name='name'
+                                    onChange={handleChange}
+                                    placeholder='Enter Artits Name'
+                              ></input>
+                        </fieldset>
+                        <fieldset className='row'>
+                              <label>Location</label>
+                              <input
+                                    type='text'
+                                    name='location'
+                                    onChange={handleChange}
+                                    placeholder='Enter Artits Location'
+                              ></input>
+                        </fieldset>
+                        <fieldset className='row'>
+                              <label>Genre</label>
+                              <input
+                                    type='text'
+                                    name='genre'
+                                    onChange={handleChange}
+                                    placeholder='Enter Artits Genre'
+                              ></input>
+                        </fieldset>
                         <button
                               variant='primary'
                               type='submit'
