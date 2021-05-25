@@ -18,7 +18,7 @@ const AdminPage = ({ handleAction }) => {
                               handleAction={handleAction}
                         />
 
-                        <h1>Admin Page</h1>
+                        <h1 className='searchrow'>Admin Page</h1>
                   </header>
 
                   <div>

@@ -9,7 +9,7 @@ const ArtistList = (props) => {
       };
 
       return (
-            <div className='main'>
+            <div className='app'>
                   <h2 className='brandFont'>Artists list</h2>
 
                   <nav>

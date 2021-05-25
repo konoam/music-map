@@ -4821,6 +4821,7 @@
         8
       ],
       "location": 2,
+      "bio": "At the age of seven, Arlindo was given his first musical instrument,the cavaquinho, by his father (Arlindão), a friend and partner of Candeia with whom he had founded the Mensageiros do Samba group.",
       "img": "https://picsum.photos/200"
     },
     {
@@ -4832,6 +4833,7 @@
         1,
         8
       ],
+      "bio": "At the age of seven, Arlindo was given his first musical instrument,the cavaquinho, by his father (Arlindão), a friend and partner of Candeia with whom he had founded the Mensageiros do Samba group.",
       "img": "https://picsum.photos/200",
       "Active_Years": "1960 - 2019"
     },
@@ -4844,6 +4846,7 @@
         10
       ],
       "location": 2,
+      "bio": "At the age of seven, Arlindo was given his first musical instrument,the cavaquinho, by his father (Arlindão), a friend and partner of Candeia with whom he had founded the Mensageiros do Samba group.",
       "Birth_name": "Jessé Gomes da Silva Filho",
       "img": "https://picsum.photos/200",
       "wikiURL": "https://en.wikipedia.org/wiki/Zeca_Pagodinho",
@@ -4853,6 +4856,7 @@
       "id": 4,
       "name": "Ana Carolina",
       "location": 4,
+      "bio": "At the age of seven, Arlindo was given his first musical instrument,the cavaquinho, by his father (Arlindão), a friend and partner of Candeia with whom he had founded the Mensageiros do Samba group.",
       "img": "https://picsum.photos/200"
     },
     {
@@ -4865,6 +4869,7 @@
       "birth_name": "Angenor de Oliveira",
       "img": "https://picsum.photos/200",
       "Active_Years": "1927–1980",
+      "bio": "At the age of seven, Arlindo was given his first musical instrument,the cavaquinho, by his father (Arlindão), a friend and partner of Candeia with whom he had founded the Mensageiros do Samba group.",
       "location": 2
     },
     {
@@ -4872,11 +4877,13 @@
       "name": "Jorge Aragao",
       "birth_name": "Jorge Aragão da Cruz",
       "location": 2,
+      "bio": "At the age of seven, Arlindo was given his first musical instrument,the cavaquinho, by his father (Arlindão), a friend and partner of Candeia with whom he had founded the Mensageiros do Samba group.",
       "img": "https://picsum.photos/200"
     },
     {
       "id": 7,
       "name": "Seu Jorge",
+      "bio": "At the age of seven, Arlindo was given his first musical instrument,the cavaquinho, by his father (Arlindão), a friend and partner of Candeia with whom he had founded the Mensageiros do Samba group.",
       "img": "https://picsum.photos/200",
       "location": 2
     },
@@ -4885,43 +4892,17 @@
       "name": "Caetano Veloso",
       "birth_name": "Caetano Emanuel Viana Teles Veloso",
       "location": 8,
-      "img": "https://picsum.photos/200"
+      "bio": "At the age of seven, Arlindo was given his first musical instrument,the cavaquinho, by his father (Arlindão), a friend and partner of Candeia with whom he had founded the Mensageiros do Samba group.",
+      "img": "https://picsum.photos/200",
+      "website": "https://www.youtube.com/channel/UCuZow3ggUzdyxctzuWGh-Og"
     },
     {
-      "id": "d3963d4b-7d21-4ec6-8b7b-0155ff8d1a8d",
-      "name": "noam",
-      "type": "Compositors"
-    },
-    {
-      "id": "b18829a1-e312-4e69-8d82-c959359f2036",
-      "name": "new artist",
-      "type": "Band",
-      "birth_name": "the real long name",
-      "location": ""
-    },
-    {
-      "id": "88645c8e-17af-4d84-aa9f-7885128f3677",
-      "name": "sunday",
+      "id": "bfa0746e-83e6-4f0a-b824-0ad89f8b8c05",
+      "name": "pres",
       "type": "",
       "birth_name": "",
-      "location": "tel aviv",
-      "genre": "samba"
-    },
-    {
-      "id": "9faeebe1-ca57-44de-8128-01a3bf1b1940",
-      "name": "bernardo",
-      "type": "",
-      "birth_name": "",
-      "location": "tikwa",
-      "genre": "funk"
-    },
-    {
-      "id": "5bf78240-2209-481c-b888-afceeabb3d4f",
-      "name": "zion",
-      "type": "",
-      "birth_name": "",
-      "location": "tel aviv",
-      "genre": "pop"
+      "location": "2",
+      "genre": "2"
     }
   ],
   "genres": [

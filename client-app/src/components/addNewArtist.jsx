@@ -42,8 +42,8 @@ const AddNewArtist = ({ closeAddNewFormCB }) => {
       };
 
       return (
-            <div>
-                  <h1 className='brandFont'>new artist</h1>
+            <div className='formContainer'>
+                  <h1 className='brandFont'>New Artist</h1>
                   <form className='formContainer'>
                         <fieldset className='row'>
                               <label>Name</label>

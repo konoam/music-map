@@ -26,11 +26,13 @@ const ArtistPage = () => {
       };
 
       return (
-            <div>
+            <div className='app'>
                   <header>
                         <HeaderNavBar handleText={'Back'} />
                   </header>
-                  <Artist artist={currentArtist} />
+                  <div className='searchrow'>
+                        <Artist artist={currentArtist} />
+                  </div>
             </div>
       );
 };
